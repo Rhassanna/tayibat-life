@@ -1,0 +1,8 @@
+{
+  "appId": "com.tayibat.life",
+  "appName": "Tayibat Life",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  }
+}

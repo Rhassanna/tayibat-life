@@ -1,0 +1,5 @@
+/data/* /data/:splat 200
+/assets/* /assets/:splat 200
+/manifest.webmanifest /manifest.webmanifest 200
+/sw.js /sw.js 200
+/* /index.html 200

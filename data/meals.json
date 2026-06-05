@@ -1,0 +1,1241 @@
+{
+  "rules": [
+    "تمت إعادة بناء الوجبات من العناصر المسموحة فقط في كتاب نظام الطيبات النهائي.",
+    "تم حذف الدجاج والبيض والألبان والخبز والمكرونة والخضار والبقوليات والتوابل التي ظهرت في صفحات الممنوعات.",
+    "الوجبات أمثلة تنظيمية مبنية على الفواكه والعصائر والفواكه المجففة والمكسرات والأعشاب المسموحة والاستثناءات المحدودة."
+  ],
+  "name_ar": "وجبات اليوم",
+  "name_en": "Today’s Meals",
+  "name_fr": "Repas du jour",
+  "name_es": "Comidas de hoy",
+  "rules_ar": [
+    "تمت إعادة بناء الوجبات من العناصر المسموحة فقط في كتاب نظام الطيبات النهائي.",
+    "تم حذف الدجاج والبيض والألبان والخبز والمكرونة والخضار والبقوليات والتوابل التي ظهرت في صفحات الممنوعات.",
+    "الوجبات أمثلة تنظيمية مبنية على الفواكه والعصائر والفواكه المجففة والمكسرات والأعشاب المسموحة والاستثناءات المحدودة."
+  ],
+  "rules_en": [
+    "Meals were rebuilt using only foods allowed in the final Tayibat System book.",
+    "Chicken, eggs, dairy, bread, pasta, vegetables, legumes, and forbidden spices were removed.",
+    "Meals are practical examples based on allowed fruits, juices, dried fruits, nuts, allowed herbs, and limited exceptions."
+  ],
+  "rules_fr": [
+    "Les repas ont été reconstruits uniquement avec les aliments autorisés du livre final Tayibat.",
+    "Le poulet, les œufs, les produits laitiers, le pain, les pâtes, les légumes, les légumineuses et les épices interdites ont été supprimés.",
+    "Les repas sont des exemples pratiques basés sur les fruits, jus, fruits séchés, noix, herbes autorisées et exceptions limitées."
+  ],
+  "rules_es": [
+    "Las comidas se reconstruyeron usando solo alimentos permitidos en el libro final Tayibat.",
+    "Se eliminaron pollo, huevos, lácteos, pan, pasta, verduras, legumbres y especias prohibidas.",
+    "Las comidas son ejemplos prácticos basados en frutas, jugos, frutas deshidratadas, frutos secos, hierbas permitidas y excepciones limitadas."
+  ],
+  "templates": {
+    "breakfast": [
+      {
+        "id": "meal-breakfast-peeled-apple-dates-carob",
+        "type": "breakfast",
+        "image": "./assets/meals/apple-dates-carob.webp",
+        "kcal": 260,
+        "protein_g": 4,
+        "sourcePage": 2,
+        "sourcePages": [
+          2,
+          5
+        ],
+        "sourceBook": "كتاب_نظام_الطيبات_النهائي.pdf",
+        "title": "تفاح بدون قشر مع تمر وخروب",
+        "name": "تفاح بدون قشر مع تمر وخروب",
+        "description": "فطور خفيف من تفاح بدون قشر مع تمر وكوب خروب، مبني فقط على عناصر مذكورة في المسموح.",
+        "notes": "فطور خفيف من تفاح بدون قشر مع تمر وكوب خروب، مبني فقط على عناصر مذكورة في المسموح.",
+        "items": [
+          "التفاح بدون قشر",
+          "التمر",
+          "الخروب"
+        ],
+        "title_ar": "تفاح بدون قشر مع تمر وخروب",
+        "name_ar": "تفاح بدون قشر مع تمر وخروب",
+        "description_ar": "فطور خفيف من تفاح بدون قشر مع تمر وكوب خروب، مبني فقط على عناصر مذكورة في المسموح.",
+        "notes_ar": "فطور خفيف من تفاح بدون قشر مع تمر وكوب خروب، مبني فقط على عناصر مذكورة في المسموح.",
+        "items_ar": [
+          "التفاح بدون قشر",
+          "التمر",
+          "الخروب"
+        ],
+        "tags_ar": [
+          "تفاح بدون قشر مع تمر وخروب",
+          "فطور خفيف من تفاح بدون قشر مع تمر وكوب خروب، مبني فقط على عناصر مذكورة في المسموح.",
+          "التفاح بدون قشر",
+          "التمر",
+          "الخروب"
+        ],
+        "title_en": "Peeled apple with dates and carob",
+        "name_en": "Peeled apple with dates and carob",
+        "description_en": "A light breakfast using peeled apple, dates, and carob only from the allowed book list.",
+        "notes_en": "A light breakfast using peeled apple, dates, and carob only from the allowed book list.",
+        "items_en": [
+          "Peeled apple",
+          "Dates",
+          "Carob"
+        ],
+        "tags_en": [
+          "Peeled apple with dates and carob",
+          "A light breakfast using peeled apple, dates, and carob only from the allowed book list.",
+          "Peeled apple",
+          "Dates",
+          "Carob"
+        ],
+        "title_fr": "Pomme sans peau avec dattes et caroube",
+        "name_fr": "Pomme sans peau avec dattes et caroube",
+        "description_fr": "Petit-déjeuner léger avec pomme sans peau, dattes et caroube uniquement depuis la liste autorisée.",
+        "notes_fr": "Petit-déjeuner léger avec pomme sans peau, dattes et caroube uniquement depuis la liste autorisée.",
+        "items_fr": [
+          "Pomme sans peau",
+          "Dattes",
+          "Caroube"
+        ],
+        "tags_fr": [
+          "Pomme sans peau avec dattes et caroube",
+          "Petit-déjeuner léger avec pomme sans peau, dattes et caroube uniquement depuis la liste autorisée.",
+          "Pomme sans peau",
+          "Dattes",
+          "Caroube"
+        ],
+        "title_es": "Manzana sin piel con dátiles y algarroba",
+        "name_es": "Manzana sin piel con dátiles y algarroba",
+        "description_es": "Desayuno ligero con manzana sin piel, dátiles y algarroba solo de la lista permitida.",
+        "notes_es": "Desayuno ligero con manzana sin piel, dátiles y algarroba solo de la lista permitida.",
+        "items_es": [
+          "Manzana sin piel",
+          "Dátiles",
+          "Algarroba"
+        ],
+        "tags_es": [
+          "Manzana sin piel con dátiles y algarroba",
+          "Desayuno ligero con manzana sin piel, dátiles y algarroba solo de la lista permitida.",
+          "Manzana sin piel",
+          "Dátiles",
+          "Algarroba"
+        ],
+        "alt_ar": "تفاح بدون قشر مع تمر وخروب",
+        "alt_en": "Peeled apple with dates and carob",
+        "alt_fr": "Pomme sans peau avec dattes et caroube",
+        "alt_es": "Manzana sin piel con dátiles y algarroba",
+        "allowedFoodIds": [
+          "allowed-peeled-apple",
+          "allowed-dates",
+          "allowed-carob"
+        ]
+      },
+      {
+        "id": "meal-breakfast-pineapple-cashew-hibiscus",
+        "type": "breakfast",
+        "image": "./assets/meals/pineapple-cashew-hibiscus.webp",
+        "kcal": 310,
+        "protein_g": 7,
+        "sourcePage": 2,
+        "sourcePages": [
+          2,
+          5
+        ],
+        "sourceBook": "كتاب_نظام_الطيبات_النهائي.pdf",
+        "title": "أناناس مع كاجو وكركديه",
+        "name": "أناناس مع كاجو وكركديه",
+        "description": "طبق صباحي بسيط من أناناس وكاجو مع منقوع كركديه.",
+        "notes": "طبق صباحي بسيط من أناناس وكاجو مع منقوع كركديه.",
+        "items": [
+          "الأناناس",
+          "الكاجو",
+          "الكركديه"
+        ],
+        "title_ar": "أناناس مع كاجو وكركديه",
+        "name_ar": "أناناس مع كاجو وكركديه",
+        "description_ar": "طبق صباحي بسيط من أناناس وكاجو مع منقوع كركديه.",
+        "notes_ar": "طبق صباحي بسيط من أناناس وكاجو مع منقوع كركديه.",
+        "items_ar": [
+          "الأناناس",
+          "الكاجو",
+          "الكركديه"
+        ],
+        "tags_ar": [
+          "أناناس مع كاجو وكركديه",
+          "طبق صباحي بسيط من أناناس وكاجو مع منقوع كركديه.",
+          "الأناناس",
+          "الكاجو",
+          "الكركديه"
+        ],
+        "title_en": "Pineapple with cashew and hibiscus",
+        "name_en": "Pineapple with cashew and hibiscus",
+        "description_en": "A simple morning plate with pineapple, cashew, and hibiscus infusion.",
+        "notes_en": "A simple morning plate with pineapple, cashew, and hibiscus infusion.",
+        "items_en": [
+          "Pineapple",
+          "Cashew",
+          "Hibiscus"
+        ],
+        "tags_en": [
+          "Pineapple with cashew and hibiscus",
+          "A simple morning plate with pineapple, cashew, and hibiscus infusion.",
+          "Pineapple",
+          "Cashew",
+          "Hibiscus"
+        ],
+        "title_fr": "Ananas avec noix de cajou et hibiscus",
+        "name_fr": "Ananas avec noix de cajou et hibiscus",
+        "description_fr": "Assiette simple du matin avec ananas, noix de cajou et infusion d’hibiscus.",
+        "notes_fr": "Assiette simple du matin avec ananas, noix de cajou et infusion d’hibiscus.",
+        "items_fr": [
+          "Ananas",
+          "Noix de cajou",
+          "Hibiscus"
+        ],
+        "tags_fr": [
+          "Ananas avec noix de cajou et hibiscus",
+          "Assiette simple du matin avec ananas, noix de cajou et infusion d’hibiscus.",
+          "Ananas",
+          "Noix de cajou",
+          "Hibiscus"
+        ],
+        "title_es": "Piña con anacardo e hibisco",
+        "name_es": "Piña con anacardo e hibisco",
+        "description_es": "Plato sencillo de mañana con piña, anacardo e infusión de hibisco.",
+        "notes_es": "Plato sencillo de mañana con piña, anacardo e infusión de hibisco.",
+        "items_es": [
+          "Piña",
+          "Anacardo",
+          "Hibisco"
+        ],
+        "tags_es": [
+          "Piña con anacardo e hibisco",
+          "Plato sencillo de mañana con piña, anacardo e infusión de hibisco.",
+          "Piña",
+          "Anacardo",
+          "Hibisco"
+        ],
+        "alt_ar": "أناناس مع كاجو وكركديه",
+        "alt_en": "Pineapple with cashew and hibiscus",
+        "alt_fr": "Ananas avec noix de cajou et hibiscus",
+        "alt_es": "Piña con anacardo e hibisco",
+        "allowedFoodIds": [
+          "allowed-pineapple",
+          "allowed-cashew",
+          "allowed-hibiscus"
+        ]
+      },
+      {
+        "id": "meal-breakfast-pear-raisins-thyme",
+        "type": "breakfast",
+        "image": "./assets/meals/pear-raisins-thyme.webp",
+        "kcal": 240,
+        "protein_g": 3,
+        "sourcePage": 2,
+        "sourcePages": [
+          2,
+          3,
+          5
+        ],
+        "sourceBook": "كتاب_نظام_الطيبات_النهائي.pdf",
+        "title": "كمثرى مع زبيب ومنقوع زعتر",
+        "name": "كمثرى مع زبيب ومنقوع زعتر",
+        "description": "فطور هادئ من كمثرى وزبيب مع زعتر، مبني على عناصر مذكورة في صفحات المسموح.",
+        "notes": "فطور هادئ من كمثرى وزبيب مع زعتر، مبني على عناصر مذكورة في صفحات المسموح.",
+        "items": [
+          "الكمثرى",
+          "الزبيب",
+          "الزعتر"
+        ],
+        "title_ar": "كمثرى مع زبيب ومنقوع زعتر",
+        "name_ar": "كمثرى مع زبيب ومنقوع زعتر",
+        "description_ar": "فطور هادئ من كمثرى وزبيب مع زعتر، مبني على عناصر مذكورة في صفحات المسموح.",
+        "notes_ar": "فطور هادئ من كمثرى وزبيب مع زعتر، مبني على عناصر مذكورة في صفحات المسموح.",
+        "items_ar": [
+          "الكمثرى",
+          "الزبيب",
+          "الزعتر"
+        ],
+        "tags_ar": [
+          "كمثرى مع زبيب ومنقوع زعتر",
+          "فطور هادئ من كمثرى وزبيب مع زعتر، مبني على عناصر مذكورة في صفحات المسموح.",
+          "الكمثرى",
+          "الزبيب",
+          "الزعتر"
+        ],
+        "title_en": "Pear with raisins and thyme infusion",
+        "name_en": "Pear with raisins and thyme infusion",
+        "description_en": "A calm breakfast of pear, raisins, and thyme from the allowed pages.",
+        "notes_en": "A calm breakfast of pear, raisins, and thyme from the allowed pages.",
+        "items_en": [
+          "Pear",
+          "Raisins",
+          "Thyme"
+        ],
+        "tags_en": [
+          "Pear with raisins and thyme infusion",
+          "A calm breakfast of pear, raisins, and thyme from the allowed pages.",
+          "Pear",
+          "Raisins",
+          "Thyme"
+        ],
+        "title_fr": "Poire avec raisins secs et infusion de thym",
+        "name_fr": "Poire avec raisins secs et infusion de thym",
+        "description_fr": "Petit-déjeuner calme avec poire, raisins secs et thym depuis les pages autorisées.",
+        "notes_fr": "Petit-déjeuner calme avec poire, raisins secs et thym depuis les pages autorisées.",
+        "items_fr": [
+          "Poire",
+          "Raisins secs",
+          "Thym"
+        ],
+        "tags_fr": [
+          "Poire avec raisins secs et infusion de thym",
+          "Petit-déjeuner calme avec poire, raisins secs et thym depuis les pages autorisées.",
+          "Poire",
+          "Raisins secs",
+          "Thym"
+        ],
+        "title_es": "Pera con pasas e infusión de tomillo",
+        "name_es": "Pera con pasas e infusión de tomillo",
+        "description_es": "Desayuno tranquilo con pera, pasas y tomillo desde las páginas permitidas.",
+        "notes_es": "Desayuno tranquilo con pera, pasas y tomillo desde las páginas permitidas.",
+        "items_es": [
+          "Pera",
+          "Pasas",
+          "Tomillo"
+        ],
+        "tags_es": [
+          "Pera con pasas e infusión de tomillo",
+          "Desayuno tranquilo con pera, pasas y tomillo desde las páginas permitidas.",
+          "Pera",
+          "Pasas",
+          "Tomillo"
+        ],
+        "alt_ar": "كمثرى مع زبيب ومنقوع زعتر",
+        "alt_en": "Pear with raisins and thyme infusion",
+        "alt_fr": "Poire avec raisins secs et infusion de thym",
+        "alt_es": "Pera con pasas e infusión de tomillo",
+        "allowedFoodIds": [
+          "allowed-pear",
+          "allowed-raisins",
+          "allowed-thyme"
+        ]
+      }
+    ],
+    "lunch": [
+      {
+        "id": "meal-lunch-pomegranate-walnut-apricot",
+        "type": "lunch",
+        "image": "./assets/meals/pomegranate-walnut-dried-apricot.webp",
+        "kcal": 340,
+        "protein_g": 8,
+        "sourcePage": 2,
+        "sourcePages": [
+          2,
+          3,
+          4,
+          5,
+          21
+        ],
+        "sourceBook": "كتاب_نظام_الطيبات_النهائي.pdf",
+        "title": "رمان بدون بذور مع جوز ومشمش مجفف",
+        "name": "رمان بدون بذور مع جوز ومشمش مجفف",
+        "description": "وجبة وسط اليوم من رمان بدون بذور وجوز ومشمش مجفف، كلها من صفحات المسموح.",
+        "notes": "وجبة وسط اليوم من رمان بدون بذور وجوز ومشمش مجفف، كلها من صفحات المسموح.",
+        "items": [
+          "الرمان بدون بذور",
+          "عين الجمل (الجوز)",
+          "المشمش المجفف"
+        ],
+        "title_ar": "عصير رمان بدون بذور مع جوز ومشمش مجفف",
+        "name_ar": "رمان بدون بذور مع جوز ومشمش مجفف",
+        "description_ar": "وجبة وسط اليوم من رمان بدون بذور وجوز ومشمش مجفف، كلها من صفحات المسموح.",
+        "notes_ar": "وجبة وسط اليوم من رمان بدون بذور وجوز ومشمش مجفف، كلها من صفحات المسموح.",
+        "items_ar": [
+          "عصير الرمان بدون بذور",
+          "الجوز",
+          "المشمش المجفف"
+        ],
+        "tags_ar": [
+          "رمان بدون بذور مع جوز ومشمش مجفف",
+          "وجبة وسط اليوم من رمان بدون بذور وجوز ومشمش مجفف، كلها من صفحات المسموح.",
+          "الرمان بدون بذور",
+          "جوز",
+          "مشمش مجفف"
+        ],
+        "title_en": "Seedless pomegranate juice with walnuts and dried apricots",
+        "name_en": "Seedless pomegranate with walnuts and dried apricots",
+        "description_en": "A midday meal with seedless pomegranate, walnuts, and dried apricots from the allowed pages.",
+        "notes_en": "A midday meal with seedless pomegranate, walnuts, and dried apricots from the allowed pages.",
+        "items_en": [
+          "Pomegranate juice without seeds",
+          "Walnuts",
+          "Dried apricots"
+        ],
+        "tags_en": [
+          "Seedless pomegranate with walnuts and dried apricots",
+          "A midday meal with seedless pomegranate, walnuts, and dried apricots from the allowed pages.",
+          "Seedless pomegranate",
+          "Walnuts",
+          "Dried apricots"
+        ],
+        "title_fr": "Jus de grenade sans pépins avec noix et abricots secs",
+        "name_fr": "Grenade sans pépins avec noix et abricots secs",
+        "description_fr": "Repas de midi avec grenade sans pépins, noix et abricots secs depuis les pages autorisées.",
+        "notes_fr": "Repas de midi avec grenade sans pépins, noix et abricots secs depuis les pages autorisées.",
+        "items_fr": [
+          "Jus de grenade sans pépins",
+          "Noix",
+          "Abricots secs"
+        ],
+        "tags_fr": [
+          "Grenade sans pépins avec noix et abricots secs",
+          "Repas de midi avec grenade sans pépins, noix et abricots secs depuis les pages autorisées.",
+          "Grenade sans pépins",
+          "Noix",
+          "Abricots secs"
+        ],
+        "title_es": "Jugo de granada sin semillas con nueces y albaricoques secos",
+        "name_es": "Granada sin semillas con nueces y albaricoques secos",
+        "description_es": "Comida de mediodía con granada sin semillas, nueces y albaricoques secos de las páginas permitidas.",
+        "notes_es": "Comida de mediodía con granada sin semillas, nueces y albaricoques secos de las páginas permitidas.",
+        "items_es": [
+          "Jugo de granada sin semillas",
+          "Nueces",
+          "Albaricoques secos"
+        ],
+        "tags_es": [
+          "Granada sin semillas con nueces y albaricoques secos",
+          "Comida de mediodía con granada sin semillas, nueces y albaricoques secos de las páginas permitidas.",
+          "Granada sin semillas",
+          "Nueces",
+          "Albaricoques secos"
+        ],
+        "alt_ar": "رمان بدون بذور مع جوز ومشمش مجفف",
+        "alt_en": "Seedless pomegranate with walnuts and dried apricots",
+        "alt_fr": "Grenade sans pépins avec noix et abricots secs",
+        "alt_es": "Granada sin semillas con nueces y albaricoques secos",
+        "allowedFoodIds": [
+          "allowed-seedless-pomegranate",
+          "allowed-walnuts",
+          "allowed-dried-apricots"
+        ]
+      },
+      {
+        "id": "meal-lunch-pear-pistachio-grape-juice",
+        "type": "lunch",
+        "image": "./assets/meals/pear-pistachio-grape-juice.webp",
+        "kcal": 330,
+        "protein_g": 7,
+        "sourcePage": 2,
+        "sourcePages": [
+          2,
+          5
+        ],
+        "sourceBook": "كتاب_نظام_الطيبات_النهائي.pdf",
+        "title": "كمثرى وفستق حلبي مع عصير عنب",
+        "name": "كمثرى وفستق حلبي مع عصير عنب",
+        "description": "اختيار بسيط من كمثرى وفستق حلبي مع عصير عنب بدون سكر مضاف.",
+        "notes": "اختيار بسيط من كمثرى وفستق حلبي مع عصير عنب بدون سكر مضاف.",
+        "items": [
+          "الكمثرى",
+          "الفستق الحلبي",
+          "عصير العنب بدون سكر مضاف"
+        ],
+        "title_ar": "كمثرى وفستق حلبي مع عصير عنب",
+        "name_ar": "كمثرى وفستق حلبي مع عصير عنب",
+        "description_ar": "اختيار بسيط من كمثرى وفستق حلبي مع عصير عنب بدون سكر مضاف.",
+        "notes_ar": "اختيار بسيط من كمثرى وفستق حلبي مع عصير عنب بدون سكر مضاف.",
+        "items_ar": [
+          "الكمثرى",
+          "الفستق الحلبي",
+          "عصير العنب بدون سكر مضاف"
+        ],
+        "tags_ar": [
+          "كمثرى وفستق حلبي مع عصير عنب",
+          "اختيار بسيط من كمثرى وفستق حلبي مع عصير عنب بدون سكر مضاف.",
+          "الكمثرى",
+          "الفستق الحلبي",
+          "عصير العنب بدون سكر مضاف"
+        ],
+        "title_en": "Pear and pistachio with grape juice",
+        "name_en": "Pear and pistachio with grape juice",
+        "description_en": "A simple option with pear, pistachio, and grape juice without added sugar.",
+        "notes_en": "A simple option with pear, pistachio, and grape juice without added sugar.",
+        "items_en": [
+          "Pear",
+          "Pistachio",
+          "Grape juice without added sugar"
+        ],
+        "tags_en": [
+          "Pear and pistachio with grape juice",
+          "A simple option with pear, pistachio, and grape juice without added sugar.",
+          "Pear",
+          "Pistachio",
+          "Grape juice without added sugar"
+        ],
+        "title_fr": "Poire et pistache avec jus de raisin",
+        "name_fr": "Poire et pistache avec jus de raisin",
+        "description_fr": "Option simple avec poire, pistache et jus de raisin sans sucre ajouté.",
+        "notes_fr": "Option simple avec poire, pistache et jus de raisin sans sucre ajouté.",
+        "items_fr": [
+          "Poire",
+          "Pistache",
+          "Jus de raisin sans sucre ajouté"
+        ],
+        "tags_fr": [
+          "Poire et pistache avec jus de raisin",
+          "Option simple avec poire, pistache et jus de raisin sans sucre ajouté.",
+          "Poire",
+          "Pistache",
+          "Jus de raisin sans sucre ajouté"
+        ],
+        "title_es": "Pera y pistacho con jugo de uva",
+        "name_es": "Pera y pistacho con jugo de uva",
+        "description_es": "Opción simple con pera, pistacho y jugo de uva sin azúcar añadida.",
+        "notes_es": "Opción simple con pera, pistacho y jugo de uva sin azúcar añadida.",
+        "items_es": [
+          "Pera",
+          "Pistacho",
+          "Jugo de uva sin azúcar añadida"
+        ],
+        "tags_es": [
+          "Pera y pistacho con jugo de uva",
+          "Opción simple con pera, pistacho y jugo de uva sin azúcar añadida.",
+          "Pera",
+          "Pistacho",
+          "Jugo de uva sin azúcar añadida"
+        ],
+        "alt_ar": "كمثرى وفستق حلبي مع عصير عنب",
+        "alt_en": "Pear and pistachio with grape juice",
+        "alt_fr": "Poire et pistache avec jus de raisin",
+        "alt_es": "Pera y pistacho con jugo de uva",
+        "allowedFoodIds": [
+          "allowed-pear",
+          "allowed-pistachio",
+          "allowed-grape-juice"
+        ]
+      },
+      {
+        "id": "meal-lunch-small-fruits-pecan",
+        "type": "lunch",
+        "image": "./assets/meals/peach-apricot-pecan.webp",
+        "kcal": 300,
+        "protein_g": 5,
+        "sourcePage": 2,
+        "sourcePages": [
+          2,
+          5
+        ],
+        "sourceBook": "كتاب_نظام_الطيبات_النهائي.pdf",
+        "title": "خوخ ومشمش بكميات قليلة مع جوز البكان",
+        "name": "خوخ ومشمش بكميات قليلة مع جوز البكان",
+        "description": "طبق محدود من الفواكه الأقل تناولاً مع جوز قلب البكان.",
+        "notes": "طبق محدود من الفواكه الأقل تناولاً مع جوز قلب البكان.",
+        "items": [
+          "الخوخ بكميات قليلة",
+          "المشمش بكميات قليلة",
+          "جوز قلب البكان"
+        ],
+        "title_ar": "خوخ ومشمش بكميات قليلة مع جوز البكان",
+        "name_ar": "خوخ ومشمش بكميات قليلة مع جوز البكان",
+        "description_ar": "طبق محدود من الفواكه الأقل تناولاً مع جوز قلب البكان.",
+        "notes_ar": "طبق محدود من الفواكه الأقل تناولاً مع جوز قلب البكان.",
+        "items_ar": [
+          "الخوخ بكميات قليلة",
+          "المشمش بكميات قليلة",
+          "جوز البكان"
+        ],
+        "tags_ar": [
+          "خوخ ومشمش بكميات قليلة مع جوز البكان",
+          "طبق محدود من الفواكه الأقل تناولاً مع جوز قلب البكان.",
+          "الخوخ بكميات قليلة",
+          "المشمش بكميات قليلة",
+          "جوز البكان"
+        ],
+        "title_en": "Small peach and apricot plate with pecans",
+        "name_en": "Small peach and apricot plate with pecans",
+        "description_en": "A limited plate of less-frequent fruits with pecans.",
+        "notes_en": "A limited plate of less-frequent fruits with pecans.",
+        "items_en": [
+          "Peach in small amounts",
+          "Apricot in small amounts",
+          "Pecans"
+        ],
+        "tags_en": [
+          "Small peach and apricot plate with pecans",
+          "A limited plate of less-frequent fruits with pecans.",
+          "Peach in small amounts",
+          "Apricot in small amounts",
+          "Pecans"
+        ],
+        "title_fr": "Petite assiette de pêche et abricot avec pécan",
+        "name_fr": "Petite assiette de pêche et abricot avec pécan",
+        "description_fr": "Assiette limitée de fruits moins fréquents avec noix de pécan.",
+        "notes_fr": "Assiette limitée de fruits moins fréquents avec noix de pécan.",
+        "items_fr": [
+          "Pêche en petite quantité",
+          "Abricot en petite quantité",
+          "Noix de pécan"
+        ],
+        "tags_fr": [
+          "Petite assiette de pêche et abricot avec pécan",
+          "Assiette limitée de fruits moins fréquents avec noix de pécan.",
+          "Pêche en petite quantité",
+          "Abricot en petite quantité",
+          "Noix de pécan"
+        ],
+        "title_es": "Plato pequeño de durazno y albaricoque con pecanas",
+        "name_es": "Plato pequeño de durazno y albaricoque con pecanas",
+        "description_es": "Plato limitado de frutas menos frecuentes con nueces pecanas.",
+        "notes_es": "Plato limitado de frutas menos frecuentes con nueces pecanas.",
+        "items_es": [
+          "Durazno en pequeñas cantidades",
+          "Albaricoque en pequeñas cantidades",
+          "Nueces pecanas"
+        ],
+        "tags_es": [
+          "Plato pequeño de durazno y albaricoque con pecanas",
+          "Plato limitado de frutas menos frecuentes con nueces pecanas.",
+          "Durazno en pequeñas cantidades",
+          "Albaricoque en pequeñas cantidades",
+          "Nueces pecanas"
+        ],
+        "alt_ar": "خوخ ومشمش بكميات قليلة مع جوز البكان",
+        "alt_en": "Small peach and apricot plate with pecans",
+        "alt_fr": "Petite assiette de pêche et abricot avec pécan",
+        "alt_es": "Plato pequeño de durazno y albaricoque con pecanas",
+        "allowedFoodIds": [
+          "allowed-peach-small",
+          "allowed-apricot-small",
+          "allowed-pecans"
+        ]
+      }
+    ],
+    "dinner": [
+      {
+        "id": "meal-dinner-dried-figs-brazil-nuts",
+        "type": "dinner",
+        "image": "./assets/meals/dried-figs-brazil-nuts.webp",
+        "kcal": 320,
+        "protein_g": 7,
+        "sourcePage": 2,
+        "sourcePages": [
+          2,
+          5
+        ],
+        "sourceBook": "كتاب_نظام_الطيبات_النهائي.pdf",
+        "title": "تين مجفف مع جوز برازيلي",
+        "name": "تين مجفف مع جوز برازيلي",
+        "description": "عشاء خفيف من التين المجفف والجوز البرازيلي مع ماء باعتدال.",
+        "notes": "عشاء خفيف من التين المجفف والجوز البرازيلي مع ماء باعتدال.",
+        "items": [
+          "التين المجفف (القطين)",
+          "الجوز البرازيلي",
+          "الماء باعتدال"
+        ],
+        "title_ar": "تين مجفف مع جوز برازيلي",
+        "name_ar": "تين مجفف مع جوز برازيلي",
+        "description_ar": "عشاء خفيف من التين المجفف والجوز البرازيلي مع ماء باعتدال.",
+        "notes_ar": "عشاء خفيف من التين المجفف والجوز البرازيلي مع ماء باعتدال.",
+        "items_ar": [
+          "التين المجفف",
+          "الجوز البرازيلي",
+          "الماء باعتدال"
+        ],
+        "tags_ar": [
+          "تين مجفف مع جوز برازيلي",
+          "عشاء خفيف من التين المجفف والجوز البرازيلي مع ماء باعتدال.",
+          "التين المجفف",
+          "الجوز البرازيلي",
+          "الماء باعتدال"
+        ],
+        "title_en": "Dried figs with Brazil nuts",
+        "name_en": "Dried figs with Brazil nuts",
+        "description_en": "A light dinner of dried figs and Brazil nuts with moderate water.",
+        "notes_en": "A light dinner of dried figs and Brazil nuts with moderate water.",
+        "items_en": [
+          "Dried figs (qateen)",
+          "Brazil nuts",
+          "Water in moderation"
+        ],
+        "tags_en": [
+          "Dried figs with Brazil nuts",
+          "A light dinner of dried figs and Brazil nuts with moderate water.",
+          "Dried figs (qateen)",
+          "Brazil nuts",
+          "Water in moderation"
+        ],
+        "title_fr": "Figues séchées avec noix du Brésil",
+        "name_fr": "Figues séchées avec noix du Brésil",
+        "description_fr": "Dîner léger avec figues séchées et noix du Brésil, avec eau modérée.",
+        "notes_fr": "Dîner léger avec figues séchées et noix du Brésil, avec eau modérée.",
+        "items_fr": [
+          "Figues séchées (qateen)",
+          "Noix du Brésil",
+          "Eau avec modération"
+        ],
+        "tags_fr": [
+          "Figues séchées avec noix du Brésil",
+          "Dîner léger avec figues séchées et noix du Brésil, avec eau modérée.",
+          "Figues séchées (qateen)",
+          "Noix du Brésil",
+          "Eau avec modération"
+        ],
+        "title_es": "Higos secos con nueces de Brasil",
+        "name_es": "Higos secos con nueces de Brasil",
+        "description_es": "Cena ligera con higos secos y nueces de Brasil, con agua moderada.",
+        "notes_es": "Cena ligera con higos secos y nueces de Brasil, con agua moderada.",
+        "items_es": [
+          "Higos secos (qateen)",
+          "Nueces de Brasil",
+          "Agua con moderación"
+        ],
+        "tags_es": [
+          "Higos secos con nueces de Brasil",
+          "Cena ligera con higos secos y nueces de Brasil, con agua moderada.",
+          "Higos secos (qateen)",
+          "Nueces de Brasil",
+          "Agua con moderación"
+        ],
+        "alt_ar": "تين مجفف مع جوز برازيلي",
+        "alt_en": "Dried figs with Brazil nuts",
+        "alt_fr": "Figues séchées avec noix du Brésil",
+        "alt_es": "Higos secos con nueces de Brasil",
+        "allowedFoodIds": [
+          "allowed-dried-figs-qateen",
+          "allowed-brazil-nuts",
+          "allowed-water-moderate"
+        ]
+      },
+      {
+        "id": "meal-dinner-avocado-lemon-cashew",
+        "type": "dinner",
+        "image": "./assets/meals/avocado-lemon-cashew.webp",
+        "kcal": 280,
+        "protein_g": 6,
+        "sourcePage": 2,
+        "sourcePages": [
+          2,
+          5
+        ],
+        "sourceBook": "كتاب_نظام_الطيبات_النهائي.pdf",
+        "title": "أفوكادو قليل مع ليمون وكاجو",
+        "name": "أفوكادو قليل مع ليمون وكاجو",
+        "description": "استخدم الأفوكادو والليمون بكميات صغيرة جداً كما يرد في الملاحظات.",
+        "notes": "استخدم الأفوكادو والليمون بكميات صغيرة جداً كما يرد في الملاحظات.",
+        "items": [
+          "الأفوكادو بكميات قليلة",
+          "الليمون بكميات قليلة جداً",
+          "الكاجو"
+        ],
+        "title_ar": "أفوكادو قليل مع ليمون وكاجو",
+        "name_ar": "أفوكادو قليل مع ليمون وكاجو",
+        "description_ar": "استخدم الأفوكادو والليمون بكميات صغيرة جداً كما يرد في الملاحظات.",
+        "notes_ar": "استخدم الأفوكادو والليمون بكميات صغيرة جداً كما يرد في الملاحظات.",
+        "items_ar": [
+          "الأفوكادو بكميات قليلة جداً",
+          "الليمون بكميات قليلة جداً",
+          "الكاجو"
+        ],
+        "tags_ar": [
+          "أفوكادو قليل مع ليمون وكاجو",
+          "استخدم الأفوكادو والليمون بكميات صغيرة جداً كما يرد في الملاحظات.",
+          "الأفوكادو بكميات قليلة جداً",
+          "الليمون بكميات قليلة جداً",
+          "الكاجو"
+        ],
+        "title_en": "Small avocado with lemon and cashew",
+        "name_en": "Small avocado with lemon and cashew",
+        "description_en": "Use avocado and lemon in very small amounts as noted in the book.",
+        "notes_en": "Use avocado and lemon in very small amounts as noted in the book.",
+        "items_en": [
+          "Avocado in small amounts",
+          "Lemon in very small amounts",
+          "Cashew"
+        ],
+        "tags_en": [
+          "Small avocado with lemon and cashew",
+          "Use avocado and lemon in very small amounts as noted in the book.",
+          "Avocado in small amounts",
+          "Lemon in very small amounts",
+          "Cashew"
+        ],
+        "title_fr": "Petit avocat avec citron et noix de cajou",
+        "name_fr": "Petit avocat avec citron et noix de cajou",
+        "description_fr": "Utiliser l’avocat et le citron en très petite quantité comme indiqué.",
+        "notes_fr": "Utiliser l’avocat et le citron en très petite quantité comme indiqué.",
+        "items_fr": [
+          "Avocat en petite quantité",
+          "Citron en très petite quantité",
+          "Noix de cajou"
+        ],
+        "tags_fr": [
+          "Petit avocat avec citron et noix de cajou",
+          "Utiliser l’avocat et le citron en très petite quantité comme indiqué.",
+          "Avocat en petite quantité",
+          "Citron en très petite quantité",
+          "Noix de cajou"
+        ],
+        "title_es": "Aguacate pequeño con limón y anacardo",
+        "name_es": "Aguacate pequeño con limón y anacardo",
+        "description_es": "Usar aguacate y limón en cantidades muy pequeñas según las notas.",
+        "notes_es": "Usar aguacate y limón en cantidades muy pequeñas según las notas.",
+        "items_es": [
+          "Aguacate en pequeñas cantidades",
+          "Limón en cantidades muy pequeñas",
+          "Anacardo"
+        ],
+        "tags_es": [
+          "Aguacate pequeño con limón y anacardo",
+          "Usar aguacate y limón en cantidades muy pequeñas según las notas.",
+          "Aguacate en pequeñas cantidades",
+          "Limón en cantidades muy pequeñas",
+          "Anacardo"
+        ],
+        "alt_ar": "أفوكادو قليل مع ليمون وكاجو",
+        "alt_en": "Small avocado with lemon and cashew",
+        "alt_fr": "Petit avocat avec citron et noix de cajou",
+        "alt_es": "Aguacate pequeño con limón y anacardo",
+        "allowedFoodIds": [
+          "allowed-avocado-small",
+          "allowed-lemon-small",
+          "allowed-cashew"
+        ]
+      },
+      {
+        "id": "meal-dinner-halva-hibiscus",
+        "type": "dinner",
+        "image": "./assets/meals/tahini-halva-hibiscus.webp",
+        "kcal": 360,
+        "protein_g": 5,
+        "sourcePage": 4,
+        "sourcePages": [
+          4,
+          5
+        ],
+        "sourceBook": "كتاب_نظام_الطيبات_النهائي.pdf",
+        "title": "حلاوة طحينية فاخرة مع كركديه",
+        "name": "حلاوة طحينية فاخرة مع كركديه",
+        "description": "خيار حلو محدود من الحلاوة الطحينية الفاخرة مع الكركديه.",
+        "notes": "خيار حلو محدود من الحلاوة الطحينية الفاخرة مع الكركديه.",
+        "items": [
+          "الحلاوة الطحينية الفاخرة",
+          "الكركديه",
+          "الماء باعتدال"
+        ],
+        "title_ar": "حلاوة طحينية فاخرة مع كركديه",
+        "name_ar": "حلاوة طحينية فاخرة مع كركديه",
+        "description_ar": "خيار حلو محدود من الحلاوة الطحينية الفاخرة مع الكركديه.",
+        "notes_ar": "خيار حلو محدود من الحلاوة الطحينية الفاخرة مع الكركديه.",
+        "items_ar": [
+          "الحلاوة الطحينية الفاخرة",
+          "الكركديه",
+          "الماء باعتدال"
+        ],
+        "tags_ar": [
+          "حلاوة طحينية فاخرة مع كركديه",
+          "خيار حلو محدود من الحلاوة الطحينية الفاخرة مع الكركديه.",
+          "الحلاوة الطحينية الفاخرة",
+          "الكركديه",
+          "الماء باعتدال"
+        ],
+        "title_en": "Premium tahini halva with hibiscus",
+        "name_en": "Premium tahini halva with hibiscus",
+        "description_en": "A limited sweet option using premium tahini halva with hibiscus.",
+        "notes_en": "A limited sweet option using premium tahini halva with hibiscus.",
+        "items_en": [
+          "Premium tahini halva",
+          "Hibiscus",
+          "Water in moderation"
+        ],
+        "tags_en": [
+          "Premium tahini halva with hibiscus",
+          "A limited sweet option using premium tahini halva with hibiscus.",
+          "Premium tahini halva",
+          "Hibiscus",
+          "Water in moderation"
+        ],
+        "title_fr": "Halva au tahini avec hibiscus",
+        "name_fr": "Halva au tahini avec hibiscus",
+        "description_fr": "Option sucrée limitée avec halva au tahini de qualité et hibiscus.",
+        "notes_fr": "Option sucrée limitée avec halva au tahini de qualité et hibiscus.",
+        "items_fr": [
+          "Halva au tahini de qualité",
+          "Hibiscus",
+          "Eau avec modération"
+        ],
+        "tags_fr": [
+          "Halva au tahini avec hibiscus",
+          "Option sucrée limitée avec halva au tahini de qualité et hibiscus.",
+          "Halva au tahini de qualité",
+          "Hibiscus",
+          "Eau avec modération"
+        ],
+        "title_es": "Halva de tahini con hibisco",
+        "name_es": "Halva de tahini con hibisco",
+        "description_es": "Opción dulce limitada con halva de tahini de calidad e hibisco.",
+        "notes_es": "Opción dulce limitada con halva de tahini de calidad e hibisco.",
+        "items_es": [
+          "Halva de tahini de calidad",
+          "Hibisco",
+          "Agua con moderación"
+        ],
+        "tags_es": [
+          "Halva de tahini con hibisco",
+          "Opción dulce limitada con halva de tahini de calidad e hibisco.",
+          "Halva de tahini de calidad",
+          "Hibisco",
+          "Agua con moderación"
+        ],
+        "alt_ar": "حلاوة طحينية فاخرة مع كركديه",
+        "alt_en": "Premium tahini halva with hibiscus",
+        "alt_fr": "Halva au tahini avec hibiscus",
+        "alt_es": "Halva de tahini con hibisco",
+        "allowedFoodIds": [
+          "allowed-premium-tahini-halva",
+          "allowed-hibiscus",
+          "allowed-water-moderate"
+        ]
+      }
+    ],
+    "snack": [
+      {
+        "id": "meal-snack-raisins-prunes",
+        "type": "snack",
+        "image": "./assets/meals/raisins-prunes.webp",
+        "kcal": 210,
+        "protein_g": 2,
+        "sourcePage": 3,
+        "sourcePages": [
+          3
+        ],
+        "sourceBook": "كتاب_نظام_الطيبات_النهائي.pdf",
+        "title": "زبيب وبرقوق مجفف",
+        "name": "زبيب وبرقوق مجفف",
+        "description": "سناك بسيط من الفواكه المجففة المسموحة مع عدم الإفراط.",
+        "notes": "سناك بسيط من الفواكه المجففة المسموحة مع عدم الإفراط.",
+        "items": [
+          "الزبيب",
+          "البرقوق المجفف"
+        ],
+        "title_ar": "زبيب وبرقوق مجفف",
+        "name_ar": "زبيب وبرقوق مجفف",
+        "description_ar": "سناك بسيط من الفواكه المجففة المسموحة مع عدم الإفراط.",
+        "notes_ar": "سناك بسيط من الفواكه المجففة المسموحة مع عدم الإفراط.",
+        "items_ar": [
+          "الزبيب",
+          "البرقوق المجفف"
+        ],
+        "tags_ar": [
+          "زبيب وبرقوق مجفف",
+          "سناك بسيط من الفواكه المجففة المسموحة مع عدم الإفراط.",
+          "الزبيب",
+          "البرقوق المجفف"
+        ],
+        "title_en": "Raisins and dried prunes",
+        "name_en": "Raisins and dried prunes",
+        "description_en": "A simple snack from allowed dried fruits without excess.",
+        "notes_en": "A simple snack from allowed dried fruits without excess.",
+        "items_en": [
+          "Raisins",
+          "Dried prunes"
+        ],
+        "tags_en": [
+          "Raisins and dried prunes",
+          "A simple snack from allowed dried fruits without excess.",
+          "Raisins",
+          "Dried prunes"
+        ],
+        "title_fr": "Raisins secs et pruneaux",
+        "name_fr": "Raisins secs et pruneaux",
+        "description_fr": "Collation simple de fruits séchés autorisés sans excès.",
+        "notes_fr": "Collation simple de fruits séchés autorisés sans excès.",
+        "items_fr": [
+          "Raisins secs",
+          "Pruneaux"
+        ],
+        "tags_fr": [
+          "Raisins secs et pruneaux",
+          "Collation simple de fruits séchés autorisés sans excès.",
+          "Raisins secs",
+          "Pruneaux"
+        ],
+        "title_es": "Pasas y ciruelas pasas",
+        "name_es": "Pasas y ciruelas pasas",
+        "description_es": "Merienda simple de frutas deshidratadas permitidas sin exceso.",
+        "notes_es": "Merienda simple de frutas deshidratadas permitidas sin exceso.",
+        "items_es": [
+          "Pasas",
+          "Ciruelas pasas"
+        ],
+        "tags_es": [
+          "Pasas y ciruelas pasas",
+          "Merienda simple de frutas deshidratadas permitidas sin exceso.",
+          "Pasas",
+          "Ciruelas pasas"
+        ],
+        "alt_ar": "زبيب وبرقوق مجفف",
+        "alt_en": "Raisins and dried prunes",
+        "alt_fr": "Raisins secs et pruneaux",
+        "alt_es": "Pasas y ciruelas pasas",
+        "allowedFoodIds": [
+          "allowed-raisins",
+          "allowed-dried-prunes"
+        ]
+      },
+      {
+        "id": "meal-snack-orange-juice-cashew",
+        "type": "snack",
+        "image": "./assets/meals/orange-juice-cashew.webp",
+        "kcal": 230,
+        "protein_g": 5,
+        "sourcePage": 2,
+        "sourcePages": [
+          2,
+          5,
+          14
+        ],
+        "sourceBook": "كتاب_نظام_الطيبات_النهائي.pdf",
+        "title": "عصير برتقال مع كاجو",
+        "name": "عصير برتقال مع كاجو",
+        "description": "يستخدم عصير البرتقال فقط، وليس الثمرة الكاملة، مع كاجو بكمية معتدلة.",
+        "notes": "يستخدم عصير البرتقال فقط، وليس الثمرة الكاملة، مع كاجو بكمية معتدلة.",
+        "items": [
+          "عصير البرتقال",
+          "الكاجو"
+        ],
+        "title_ar": "عصير برتقال مع كاجو",
+        "name_ar": "عصير برتقال مع كاجو",
+        "description_ar": "يستخدم عصير البرتقال فقط، وليس الثمرة الكاملة، مع كاجو بكمية معتدلة.",
+        "notes_ar": "يستخدم عصير البرتقال فقط، وليس الثمرة الكاملة، مع كاجو بكمية معتدلة.",
+        "items_ar": [
+          "عصير البرتقال",
+          "الكاجو"
+        ],
+        "tags_ar": [
+          "عصير برتقال مع كاجو",
+          "يستخدم عصير البرتقال فقط، وليس الثمرة الكاملة، مع كاجو بكمية معتدلة.",
+          "عصير البرتقال",
+          "الكاجو"
+        ],
+        "title_en": "Orange juice with cashew",
+        "name_en": "Orange juice with cashew",
+        "description_en": "Uses orange juice only, not the whole fruit, with a moderate cashew portion.",
+        "notes_en": "Uses orange juice only, not the whole fruit, with a moderate cashew portion.",
+        "items_en": [
+          "Orange juice",
+          "Cashew"
+        ],
+        "tags_en": [
+          "Orange juice with cashew",
+          "Uses orange juice only, not the whole fruit, with a moderate cashew portion.",
+          "Orange juice",
+          "Cashew"
+        ],
+        "title_fr": "Jus d’orange avec noix de cajou",
+        "name_fr": "Jus d’orange avec noix de cajou",
+        "description_fr": "Utilise seulement le jus d’orange, pas le fruit entier, avec une portion modérée de cajou.",
+        "notes_fr": "Utilise seulement le jus d’orange, pas le fruit entier, avec une portion modérée de cajou.",
+        "items_fr": [
+          "Jus d’orange",
+          "Noix de cajou"
+        ],
+        "tags_fr": [
+          "Jus d’orange avec noix de cajou",
+          "Utilise seulement le jus d’orange, pas le fruit entier, avec une portion modérée de cajou.",
+          "Jus d’orange",
+          "Noix de cajou"
+        ],
+        "title_es": "Jugo de naranja con anacardo",
+        "name_es": "Jugo de naranja con anacardo",
+        "description_es": "Usa solo jugo de naranja, no la fruta entera, con una porción moderada de anacardo.",
+        "notes_es": "Usa solo jugo de naranja, no la fruta entera, con una porción moderada de anacardo.",
+        "items_es": [
+          "Jugo de naranja",
+          "Anacardo"
+        ],
+        "tags_es": [
+          "Jugo de naranja con anacardo",
+          "Usa solo jugo de naranja, no la fruta entera, con una porción moderada de anacardo.",
+          "Jugo de naranja",
+          "Anacardo"
+        ],
+        "alt_ar": "عصير برتقال مع كاجو",
+        "alt_en": "Orange juice with cashew",
+        "alt_fr": "Jus d’orange avec noix de cajou",
+        "alt_es": "Jugo de naranja con anacardo",
+        "allowedFoodIds": [
+          "allowed-orange-juice",
+          "allowed-cashew"
+        ]
+      },
+      {
+        "id": "meal-snack-mango-juice-brazil-nut",
+        "type": "snack",
+        "image": "./assets/meals/mango-juice-brazil-nuts.webp",
+        "kcal": 250,
+        "protein_g": 5,
+        "sourcePage": 2,
+        "sourcePages": [
+          2,
+          5,
+          14
+        ],
+        "sourceBook": "كتاب_نظام_الطيبات_النهائي.pdf",
+        "title": "عصير مانجا شهري مع جوز برازيلي",
+        "name": "عصير مانجا شهري مع جوز برازيلي",
+        "description": "سناك محدود جداً: عصير مانجا فقط حسب ملاحظة الصفحة 2 مع جوز برازيلي.",
+        "notes": "سناك محدود جداً: عصير مانجا فقط حسب ملاحظة الصفحة 2 مع جوز برازيلي.",
+        "items": [
+          "عصير المانجا",
+          "الجوز البرازيلي"
+        ],
+        "title_ar": "عصير مانجا شهري مع جوز برازيلي",
+        "name_ar": "عصير مانجا شهري مع جوز برازيلي",
+        "description_ar": "سناك محدود جداً: عصير مانجا فقط حسب ملاحظة الصفحة 2 مع جوز برازيلي.",
+        "notes_ar": "سناك محدود جداً: عصير مانجا فقط حسب ملاحظة الصفحة 2 مع جوز برازيلي.",
+        "items_ar": [
+          "عصير المانجا",
+          "الجوز البرازيلي"
+        ],
+        "tags_ar": [
+          "عصير مانجا شهري مع جوز برازيلي",
+          "سناك محدود جداً: عصير مانجا فقط حسب ملاحظة الصفحة 2 مع جوز برازيلي.",
+          "عصير المانجا",
+          "الجوز البرازيلي"
+        ],
+        "title_en": "Monthly mango juice with Brazil nuts",
+        "name_en": "Monthly mango juice with Brazil nuts",
+        "description_en": "A very limited snack: mango juice only according to page 2 with Brazil nuts.",
+        "notes_en": "A very limited snack: mango juice only according to page 2 with Brazil nuts.",
+        "items_en": [
+          "Mango juice",
+          "Brazil nuts"
+        ],
+        "tags_en": [
+          "Monthly mango juice with Brazil nuts",
+          "A very limited snack: mango juice only according to page 2 with Brazil nuts.",
+          "Mango juice",
+          "Brazil nuts"
+        ],
+        "title_fr": "Jus de mangue mensuel avec noix du Brésil",
+        "name_fr": "Jus de mangue mensuel avec noix du Brésil",
+        "description_fr": "Collation très limitée: jus de mangue seulement selon la page 2 avec noix du Brésil.",
+        "notes_fr": "Collation très limitée: jus de mangue seulement selon la page 2 avec noix du Brésil.",
+        "items_fr": [
+          "Jus de mangue",
+          "Noix du Brésil"
+        ],
+        "tags_fr": [
+          "Jus de mangue mensuel avec noix du Brésil",
+          "Collation très limitée: jus de mangue seulement selon la page 2 avec noix du Brésil.",
+          "Jus de mangue",
+          "Noix du Brésil"
+        ],
+        "title_es": "Jugo de mango mensual con nueces de Brasil",
+        "name_es": "Jugo de mango mensual con nueces de Brasil",
+        "description_es": "Merienda muy limitada: solo jugo de mango según la página 2 con nueces de Brasil.",
+        "notes_es": "Merienda muy limitada: solo jugo de mango según la página 2 con nueces de Brasil.",
+        "items_es": [
+          "Jugo de mango",
+          "Nueces de Brasil"
+        ],
+        "tags_es": [
+          "Jugo de mango mensual con nueces de Brasil",
+          "Merienda muy limitada: solo jugo de mango según la página 2 con nueces de Brasil.",
+          "Jugo de mango",
+          "Nueces de Brasil"
+        ],
+        "alt_ar": "عصير مانجا شهري مع جوز برازيلي",
+        "alt_en": "Monthly mango juice with Brazil nuts",
+        "alt_fr": "Jus de mangue mensuel avec noix du Brésil",
+        "alt_es": "Jugo de mango mensual con nueces de Brasil",
+        "allowedFoodIds": [
+          "allowed-mango-juice-monthly",
+          "allowed-brazil-nuts"
+        ]
+      },
+      {
+        "id": "meal-snack-orange-juice-cacao",
+        "type": "snack",
+        "image": "./assets/meals/orange-juice-cocoa.webp",
+        "kcal": 230,
+        "protein_g": 5,
+        "sourcePage": 2,
+        "sourcePages": [
+          2,
+          5,
+          14
+        ],
+        "sourceBook": "كتاب_نظام_الطيبات_النهائي.pdf",
+        "title": "عصير برتقال مع كاكاو",
+        "name": "عصير برتقال مع كاكاو",
+        "description": "مشروب / سناك من عصير البرتقال مع الكاكاو بكمية معتدلة.",
+        "notes": "مشروب / سناك من عصير البرتقال مع الكاكاو بكمية معتدلة.",
+        "items": [
+          "عصير البرتقال",
+          "الكاكاو"
+        ],
+        "title_ar": "عصير برتقال مع كاكاو",
+        "name_ar": "عصير برتقال مع كاكاو",
+        "description_ar": "مشروب / سناك من عصير البرتقال مع الكاكاو بكمية معتدلة.",
+        "notes_ar": "مشروب / سناك من عصير البرتقال مع الكاكاو بكمية معتدلة.",
+        "items_ar": [
+          "عصير البرتقال",
+          "الكاكاو"
+        ],
+        "tags_ar": [
+          "عصير برتقال مع كاكاو",
+          "مشروب / سناك من عصير البرتقال مع الكاكاو بكمية معتدلة.",
+          "عصير البرتقال",
+          "الكاكاو"
+        ],
+        "title_en": "Orange juice with cacao",
+        "name_en": "Orange juice with cacao",
+        "description_en": "A drink / snack using orange juice with cacao in moderation.",
+        "notes_en": "A drink / snack using orange juice with cacao in moderation.",
+        "items_en": [
+          "Orange juice",
+          "Cacao"
+        ],
+        "tags_en": [
+          "Orange juice with cacao",
+          "A drink / snack using orange juice with cacao in moderation.",
+          "Orange juice",
+          "Cacao"
+        ],
+        "title_fr": "Jus d’orange avec cacao",
+        "name_fr": "Jus d’orange avec cacao",
+        "description_fr": "Boisson / collation avec jus d’orange et cacao avec modération.",
+        "notes_fr": "Boisson / collation avec jus d’orange et cacao avec modération.",
+        "items_fr": [
+          "Jus d’orange",
+          "Cacao"
+        ],
+        "tags_fr": [
+          "Jus d’orange avec cacao",
+          "Boisson / collation avec jus d’orange et cacao avec modération.",
+          "Jus d’orange",
+          "Cacao"
+        ],
+        "title_es": "Jugo de naranja con cacao",
+        "name_es": "Jugo de naranja con cacao",
+        "description_es": "Bebida / snack con jugo de naranja y cacao con moderación.",
+        "notes_es": "Bebida / snack con jugo de naranja y cacao con moderación.",
+        "items_es": [
+          "Jugo de naranja",
+          "Cacao"
+        ],
+        "tags_es": [
+          "Jugo de naranja con cacao",
+          "Bebida / snack con jugo de naranja y cacao con moderación.",
+          "Jugo de naranja",
+          "Cacao"
+        ],
+        "alt_ar": "عصير برتقال مع كاكاو",
+        "alt_en": "Orange juice with cacao",
+        "alt_fr": "Jus d’orange avec cacao",
+        "alt_es": "Jugo de naranja con cacao",
+        "allowedFoodIds": [
+          "allowed-orange-juice"
+        ]
+      }
+    ]
+  }
+}

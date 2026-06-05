@@ -1,0 +1,23 @@
+{
+  "name": "Tayibat Life",
+  "short_name": "Tayibat",
+  "description": "Tayibat Life is a healthy lifestyle app based on the نظام طيبات food system.",
+  "start_url": "/index.html",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#F4FAF4",
+  "theme_color": "#0B6B2A",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

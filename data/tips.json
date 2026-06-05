@@ -1,0 +1,1620 @@
+{
+  "source": {
+    "title_ar": "النصائح اليومية - نظام طيبات",
+    "title_en": "Daily Tips - Tayibat System",
+    "title_fr": "Conseils quotidiens - Système Tayibat",
+    "title_es": "Consejos diarios - Sistema Tayibat",
+    "rebuiltAt": "2026-06-05",
+    "status": "official_tips_database",
+    "pdf": "Tayibat Life.pdf",
+    "pagesReviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "sourcePages": [
+      9,
+      10,
+      11,
+      12,
+      22,
+      23
+    ],
+    "note_ar": "تمت مطابقة النصائح والملاحظات مع صفحات الملاحظات العامة وقيود التكرار في ملف Tayibat Life PDF.",
+    "note_en": "Tips and notes were matched to the general doctor-note pages and frequency restrictions in the Tayibat Life PDF."
+  },
+  "categories": [
+    "طبي",
+    "ماء",
+    "روتين",
+    "غذاء",
+    "طبخ",
+    "أعشاب",
+    "بروتين",
+    "وجبات",
+    "خبز",
+    "ممنوعات",
+    "سمك",
+    "منهج",
+    "سناك",
+    "تنوع",
+    "جودة",
+    "حمل",
+    "ملاحظات الطبيب",
+    "قيود أسبوعية"
+  ],
+  "categories_ar": [
+    "طبي",
+    "ماء",
+    "روتين",
+    "غذاء",
+    "طبخ",
+    "أعشاب",
+    "بروتين",
+    "وجبات",
+    "خبز",
+    "ممنوعات",
+    "سمك",
+    "منهج",
+    "سناك",
+    "تنوع",
+    "جودة",
+    "حمل",
+    "ملاحظات الطبيب",
+    "قيود أسبوعية"
+  ],
+  "categories_en": [
+    "Medical",
+    "Water",
+    "Routine",
+    "Nutrition",
+    "Cooking",
+    "Herbs",
+    "Protein",
+    "Meals",
+    "Bread",
+    "Forbidden items",
+    "Fish",
+    "System",
+    "Snack",
+    "Diversity",
+    "Quality",
+    "Pregnancy",
+    "Doctor notes",
+    "Weekly restrictions"
+  ],
+  "categories_fr": [
+    "Médical",
+    "Eau",
+    "Routine",
+    "Nutrition",
+    "Cuisine",
+    "Herbes",
+    "Protéines",
+    "Repas",
+    "Pain",
+    "Interdits",
+    "Poisson",
+    "Méthode",
+    "Collation",
+    "Variété",
+    "Qualité",
+    "Grossesse",
+    "Notes médicales",
+    "Restrictions hebdomadaires"
+  ],
+  "categories_es": [
+    "Médico",
+    "Agua",
+    "Rutina",
+    "Nutrición",
+    "Cocina",
+    "Hierbas",
+    "Proteína",
+    "Comidas",
+    "Pan",
+    "Prohibidos",
+    "Pescado",
+    "Método",
+    "Snack",
+    "Variedad",
+    "Calidad",
+    "Embarazo",
+    "Notas médicas",
+    "Restricciones semanales"
+  ],
+  "tips": [
+    {
+      "id": "tip-01",
+      "category": "طبي",
+      "category_ar": "طبي",
+      "category_en": "Medical",
+      "category_fr": "Médical",
+      "category_es": "Médico",
+      "title_ar": "لا توقف الدواء دون استشارة",
+      "title_en": "Do not stop medication without advice",
+      "title_fr": "N'arrêtez pas les médicaments sans avis",
+      "title_es": "No suspenda medicamentos sin consejo",
+      "text_ar": "لا توقف الأدوية نهائياً دون استشارة الطبيب، وخصوصاً خلال أول ثلاثة أشهر من العلاج.",
+      "text_en": "Do not stop medications completely without consulting your doctor, especially during the first three months of treatment.",
+      "text_fr": "N'arrêtez jamais complètement les médicaments sans consulter votre médecin, surtout durant les trois premiers mois du traitement.",
+      "text_es": "No suspenda los medicamentos por completo sin consultar a su médico, especialmente durante los primeros tres meses de tratamiento.",
+      "image": "./assets/tips/tip-01-medical-advice.webp",
+      "alt_ar": "لا توقف الدواء دون استشارة",
+      "alt_en": "Do not stop medication without advice",
+      "alt_fr": "N'arrêtez pas les médicaments sans avis",
+      "alt_es": "No suspenda medicamentos sin consejo",
+      "name_ar": "لا توقف الدواء دون استشارة",
+      "name_en": "Do not stop medication without advice",
+      "name_fr": "N'arrêtez pas les médicaments sans avis",
+      "name_es": "No suspenda medicamentos sin consejo",
+      "tags_ar": [
+        "طبي",
+        "لا توقف الدواء دون استشارة",
+        "لا توقف الأدوية نهائياً دون استشارة الطبيب، وخصوصاً خلال أول ثلاثة أشهر من العلاج."
+      ],
+      "tags_en": [
+        "Medical",
+        "Do not stop medication without advice",
+        "Do not stop medications completely without consulting your doctor, especially during the first three months of treatment."
+      ],
+      "tags_fr": [
+        "Médical",
+        "N'arrêtez pas les médicaments sans avis",
+        "N'arrêtez jamais complètement les médicaments sans consulter votre médecin, surtout durant les trois premiers mois du traitement."
+      ],
+      "tags_es": [
+        "Médico",
+        "No suspenda medicamentos sin consejo",
+        "No suspenda los medicamentos por completo sin consultar a su médico, especialmente durante los primeros tres meses de tratamiento."
+      ],
+      "sourceBook": "Tayibat Life.pdf"
+    },
+    {
+      "id": "tip-02",
+      "category": "طبي",
+      "category_ar": "طبي",
+      "category_en": "Medical",
+      "category_fr": "Médical",
+      "category_es": "Médico",
+      "title_ar": "إيقاف الدواء يكون تدريجياً",
+      "title_en": "Stop medicine gradually",
+      "title_fr": "Arrêter un médicament progressivement",
+      "title_es": "Suspender la medicina gradualmente",
+      "text_ar": "إيقاف الدواء يكون تدريجياً ومع متابعة الطبيب لحالة المريض.",
+      "text_en": "Stopping medicine should be gradual and monitored by the doctor.",
+      "text_fr": "L'arrêt d'un médicament doit être progressif et suivi par le médecin.",
+      "text_es": "Suspender un medicamento debe ser gradual y supervisado por el médico.",
+      "image": "./assets/tips/tip-02-medication-followup.webp",
+      "alt_ar": "إيقاف الدواء يكون تدريجياً",
+      "alt_en": "Stop medicine gradually",
+      "alt_fr": "Arrêter un médicament progressivement",
+      "alt_es": "Suspender la medicina gradualmente",
+      "name_ar": "إيقاف الدواء يكون تدريجياً",
+      "name_en": "Stop medicine gradually",
+      "name_fr": "Arrêter un médicament progressivement",
+      "name_es": "Suspender la medicina gradualmente",
+      "tags_ar": [
+        "طبي",
+        "إيقاف الدواء يكون تدريجياً",
+        "إيقاف الدواء يكون تدريجياً ومع متابعة الطبيب لحالة المريض."
+      ],
+      "tags_en": [
+        "Medical",
+        "Stop medicine gradually",
+        "Stopping medicine should be gradual and monitored by the doctor."
+      ],
+      "tags_fr": [
+        "Médical",
+        "Arrêter un médicament progressivement",
+        "L'arrêt d'un médicament doit être progressif et suivi par le médecin."
+      ],
+      "tags_es": [
+        "Médico",
+        "Suspender la medicina gradualmente",
+        "Suspender un medicamento debe ser gradual y supervisado por el médico."
+      ],
+      "sourceBook": "Tayibat Life.pdf"
+    },
+    {
+      "id": "tip-03",
+      "category": "ماء",
+      "category_ar": "ماء",
+      "category_en": "Water",
+      "category_fr": "Eau",
+      "category_es": "Agua",
+      "title_ar": "اشرب عند العطش بلا إفراط",
+      "title_en": "Drink when thirsty without excess",
+      "title_fr": "Buvez quand vous avez soif",
+      "title_es": "Beba cuando tenga sed sin exceso",
+      "text_ar": "كثرة شرب الماء ليست هدفاً بحد ذاتها؛ اشرب عند العطش وبدون إفراط.",
+      "text_en": "Drinking too much water is not a goal by itself; drink when thirsty and without excess.",
+      "text_fr": "Boire beaucoup d'eau n'est pas un objectif en soi ; buvez quand vous avez soif et sans excès.",
+      "text_es": "Beber mucha agua no es un objetivo en sí; beba cuando tenga sed y sin exceso.",
+      "image": "./assets/tips/tip-03-water-balance.webp",
+      "alt_ar": "اشرب عند العطش بلا إفراط",
+      "alt_en": "Drink when thirsty without excess",
+      "alt_fr": "Buvez quand vous avez soif",
+      "alt_es": "Beba cuando tenga sed sin exceso",
+      "name_ar": "اشرب عند العطش بلا إفراط",
+      "name_en": "Drink when thirsty without excess",
+      "name_fr": "Buvez quand vous avez soif",
+      "name_es": "Beba cuando tenga sed sin exceso",
+      "tags_ar": [
+        "ماء",
+        "اشرب عند العطش بلا إفراط",
+        "كثرة شرب الماء ليست هدفاً بحد ذاتها؛ اشرب عند العطش وبدون إفراط."
+      ],
+      "tags_en": [
+        "Water",
+        "Drink when thirsty without excess",
+        "Drinking too much water is not a goal by itself; drink when thirsty and without excess."
+      ],
+      "tags_fr": [
+        "Eau",
+        "Buvez quand vous avez soif",
+        "Boire beaucoup d'eau n'est pas un objectif en soi ; buvez quand vous avez soif et sans excès."
+      ],
+      "tags_es": [
+        "Agua",
+        "Beba cuando tenga sed sin exceso",
+        "Beber mucha agua no es un objetivo en sí; beba cuando tenga sed y sin exceso."
+      ],
+      "sourceBook": "Tayibat Life.pdf"
+    },
+    {
+      "id": "tip-04",
+      "category": "روتين",
+      "category_ar": "روتين",
+      "category_en": "Routine",
+      "category_fr": "Routine",
+      "category_es": "Rutina",
+      "title_ar": "الصيام من 8 إلى 12 ساعة",
+      "title_en": "Fast for 8 to 12 hours",
+      "title_fr": "Jeûne de 8 à 12 heures",
+      "title_es": "Ayuno de 8 a 12 horas",
+      "text_ar": "الصيام أثناء اتباع نظام طيبات يكون من 8 إلى 12 ساعة.",
+      "text_en": "Fasting while following Tayibat is usually 8 to 12 hours.",
+      "text_fr": "Le jeûne pendant le système Tayibat dure généralement de 8 à 12 heures.",
+      "text_es": "El ayuno durante el sistema Tayibat suele ser de 8 a 12 horas.",
+      "image": "./assets/tips/tip-04-fasting-routine.webp",
+      "alt_ar": "الصيام من 8 إلى 12 ساعة",
+      "alt_en": "Fast for 8 to 12 hours",
+      "alt_fr": "Jeûne de 8 à 12 heures",
+      "alt_es": "Ayuno de 8 a 12 horas",
+      "name_ar": "الصيام من 8 إلى 12 ساعة",
+      "name_en": "Fast for 8 to 12 hours",
+      "name_fr": "Jeûne de 8 à 12 heures",
+      "name_es": "Ayuno de 8 a 12 horas",
+      "tags_ar": [
+        "روتين",
+        "الصيام من 8 إلى 12 ساعة",
+        "الصيام أثناء اتباع نظام طيبات يكون من 8 إلى 12 ساعة."
+      ],
+      "tags_en": [
+        "Routine",
+        "Fast for 8 to 12 hours",
+        "Fasting while following Tayibat is usually 8 to 12 hours."
+      ],
+      "tags_fr": [
+        "Routine",
+        "Jeûne de 8 à 12 heures",
+        "Le jeûne pendant le système Tayibat dure généralement de 8 à 12 heures."
+      ],
+      "tags_es": [
+        "Rutina",
+        "Ayuno de 8 a 12 horas",
+        "El ayuno durante el sistema Tayibat suele ser de 8 a 12 horas."
+      ],
+      "sourceBook": "Tayibat Life.pdf"
+    },
+    {
+      "id": "tip-05",
+      "category": "غذاء",
+      "category_ar": "غذاء",
+      "category_en": "Nutrition",
+      "category_fr": "Nutrition",
+      "category_es": "Nutrición",
+      "title_ar": "اختر الخل العضوي",
+      "title_en": "Choose organic vinegar",
+      "title_fr": "Choisir le vinaigre biologique",
+      "title_es": "Elija vinagre orgánico",
+      "text_ar": "الخل العضوي مفيد، وخصوصاً خل التفاح الطبيعي.",
+      "text_en": "Organic vinegar is useful, especially natural apple cider vinegar.",
+      "text_fr": "Le vinaigre biologique est utile, surtout le vinaigre de cidre naturel.",
+      "text_es": "El vinagre orgánico es útil, especialmente el vinagre natural de manzana.",
+      "image": "./assets/tips/tip-05-apple-vinegar.webp",
+      "alt_ar": "اختر الخل العضوي",
+      "alt_en": "Choose organic vinegar",
+      "alt_fr": "Choisir le vinaigre biologique",
+      "alt_es": "Elija vinagre orgánico",
+      "name_ar": "اختر الخل العضوي",
+      "name_en": "Choose organic vinegar",
+      "name_fr": "Choisir le vinaigre biologique",
+      "name_es": "Elija vinagre orgánico",
+      "tags_ar": [
+        "غذاء",
+        "اختر الخل العضوي",
+        "الخل العضوي مفيد، وخصوصاً خل التفاح الطبيعي."
+      ],
+      "tags_en": [
+        "Nutrition",
+        "Choose organic vinegar",
+        "Organic vinegar is useful, especially natural apple cider vinegar."
+      ],
+      "tags_fr": [
+        "Nutrition",
+        "Choisir le vinaigre biologique",
+        "Le vinaigre biologique est utile, surtout le vinaigre de cidre naturel."
+      ],
+      "tags_es": [
+        "Nutrición",
+        "Elija vinagre orgánico",
+        "El vinagre orgánico es útil, especialmente el vinagre natural de manzana."
+      ],
+      "sourceBook": "Tayibat Life.pdf"
+    },
+    {
+      "id": "tip-06",
+      "category": "طبخ",
+      "category_ar": "طبخ",
+      "category_en": "Cooking",
+      "category_fr": "Cuisine",
+      "category_es": "Cocina",
+      "title_ar": "تجنب القلاية الهوائية",
+      "title_en": "Avoid the air fryer",
+      "title_fr": "Éviter la friteuse à air",
+      "title_es": "Evite la freidora de aire",
+      "text_ar": "القلاية الهوائية وردت ضمن الممنوعات؛ اعتمد السلق أو الشواء أو البخار.",
+      "text_en": "The air fryer is listed among forbidden items; prefer boiling, grilling, or steaming.",
+      "text_fr": "La friteuse à air figure parmi les interdits ; privilégiez l'ébullition, le grill ou la vapeur.",
+      "text_es": "La freidora de aire figura entre los prohibidos; prefiera hervir, asar o cocinar al vapor.",
+      "image": "./assets/tips/tip-06-air-fryer-forbidden.webp",
+      "alt_ar": "تجنب القلاية الهوائية",
+      "alt_en": "Avoid the air fryer",
+      "alt_fr": "Éviter la friteuse à air",
+      "alt_es": "Evite la freidora de aire",
+      "name_ar": "تجنب القلاية الهوائية",
+      "name_en": "Avoid the air fryer",
+      "name_fr": "Éviter la friteuse à air",
+      "name_es": "Evite la freidora de aire",
+      "tags_ar": [
+        "طبخ",
+        "تجنب القلاية الهوائية",
+        "القلاية الهوائية وردت ضمن الممنوعات؛ اعتمد السلق أو الشواء أو البخار."
+      ],
+      "tags_en": [
+        "Cooking",
+        "Avoid the air fryer",
+        "The air fryer is listed among forbidden items; prefer boiling, grilling, or steaming."
+      ],
+      "tags_fr": [
+        "Cuisine",
+        "Éviter la friteuse à air",
+        "La friteuse à air figure parmi les interdits ; privilégiez l'ébullition, le grill ou la vapeur."
+      ],
+      "tags_es": [
+        "Cocina",
+        "Evite la freidora de aire",
+        "La freidora de aire figura entre los prohibidos; prefiera hervir, asar o cocinar al vapor."
+      ],
+      "sourceBook": "Tayibat Life.pdf"
+    },
+    {
+      "id": "tip-07",
+      "category": "أعشاب",
+      "category_ar": "أعشاب",
+      "category_en": "Herbs",
+      "category_fr": "Herbes",
+      "category_es": "Hierbas",
+      "title_ar": "الأعشاب منقوعة فقط",
+      "title_en": "Herbs as infusion only",
+      "title_fr": "Les herbes en infusion seulement",
+      "title_es": "Hierbas solo en infusión",
+      "text_ar": "شاي الأعشاب يكون منقوعاً فقط، ولا تؤكل أوراقه مباشرة.",
+      "text_en": "Herbal tea should be an infusion only; do not eat the leaves directly.",
+      "text_fr": "La tisane doit être une infusion seulement ; ne mangez pas les feuilles directement.",
+      "text_es": "El té de hierbas debe ser solo una infusión; no coma las hojas directamente.",
+      "image": "./assets/tips/tip-07-herbal-tea.webp",
+      "alt_ar": "الأعشاب منقوعة فقط",
+      "alt_en": "Herbs as infusion only",
+      "alt_fr": "Les herbes en infusion seulement",
+      "alt_es": "Hierbas solo en infusión",
+      "name_ar": "الأعشاب منقوعة فقط",
+      "name_en": "Herbs as infusion only",
+      "name_fr": "Les herbes en infusion seulement",
+      "name_es": "Hierbas solo en infusión",
+      "tags_ar": [
+        "أعشاب",
+        "الأعشاب منقوعة فقط",
+        "شاي الأعشاب يكون منقوعاً فقط، ولا تؤكل أوراقه مباشرة."
+      ],
+      "tags_en": [
+        "Herbs",
+        "Herbs as infusion only",
+        "Herbal tea should be an infusion only; do not eat the leaves directly."
+      ],
+      "tags_fr": [
+        "Herbes",
+        "Les herbes en infusion seulement",
+        "La tisane doit être une infusion seulement ; ne mangez pas les feuilles directement."
+      ],
+      "tags_es": [
+        "Hierbas",
+        "Hierbas solo en infusión",
+        "El té de hierbas debe ser solo una infusión; no coma las hojas directamente."
+      ],
+      "sourceBook": "Tayibat Life.pdf"
+    },
+    {
+      "id": "tip-08",
+      "category": "بروتين",
+      "category_ar": "بروتين",
+      "category_en": "Protein",
+      "category_fr": "Protéines",
+      "category_es": "Proteína",
+      "title_ar": "وازن البروتين أسبوعياً",
+      "title_en": "Balance protein through the week",
+      "title_fr": "Équilibrer les protéines sur la semaine",
+      "title_es": "Equilibre la proteína durante la semana",
+      "text_ar": "وزع البروتين خلال الأسبوع بشكل متوازن.",
+      "text_en": "Distribute protein through the week in a balanced way.",
+      "text_fr": "Répartissez les protéines sur la semaine de façon équilibrée.",
+      "text_es": "Distribuya la proteína durante la semana de forma equilibrada.",
+      "image": "./assets/tips/tip-08-protein-balance.webp",
+      "alt_ar": "وازن البروتين أسبوعياً",
+      "alt_en": "Balance protein through the week",
+      "alt_fr": "Équilibrer les protéines sur la semaine",
+      "alt_es": "Equilibre la proteína durante la semana",
+      "name_ar": "وازن البروتين أسبوعياً",
+      "name_en": "Balance protein through the week",
+      "name_fr": "Équilibrer les protéines sur la semaine",
+      "name_es": "Equilibre la proteína durante la semana",
+      "tags_ar": [
+        "بروتين",
+        "وازن البروتين أسبوعياً",
+        "وزع البروتين خلال الأسبوع بشكل متوازن."
+      ],
+      "tags_en": [
+        "Protein",
+        "Balance protein through the week",
+        "Distribute protein through the week in a balanced way."
+      ],
+      "tags_fr": [
+        "Protéines",
+        "Équilibrer les protéines sur la semaine",
+        "Répartissez les protéines sur la semaine de façon équilibrée."
+      ],
+      "tags_es": [
+        "Proteína",
+        "Equilibre la proteína durante la semana",
+        "Distribuya la proteína durante la semana de forma equilibrada."
+      ],
+      "sourceBook": "Tayibat Life.pdf"
+    },
+    {
+      "id": "tip-09",
+      "category": "وجبات",
+      "category_ar": "وجبات",
+      "category_en": "Meals",
+      "category_fr": "Repas",
+      "category_es": "Comidas",
+      "title_ar": "استخدم الشوربة باعتدال",
+      "title_en": "Use soups in moderation",
+      "title_fr": "Utiliser les soupes avec modération",
+      "title_es": "Use las sopas con moderación",
+      "text_ar": "شوربة العظام والكوارع تستخدم وفق التوزيع الغذائي، ولا يكثر منها.",
+      "text_en": "Bone soup and trotters are used according to the meal distribution and should not be overused.",
+      "text_fr": "La soupe d'os et les pieds sont utilisés selon la répartition alimentaire, sans excès.",
+      "text_es": "La sopa de huesos y patas se usa según la distribución alimentaria y sin exceso.",
+      "image": "./assets/tips/tip-09-bone-soup.webp",
+      "alt_ar": "استخدم الشوربة باعتدال",
+      "alt_en": "Use soups in moderation",
+      "alt_fr": "Utiliser les soupes avec modération",
+      "alt_es": "Use las sopas con moderación",
+      "name_ar": "استخدم الشوربة باعتدال",
+      "name_en": "Use soups in moderation",
+      "name_fr": "Utiliser les soupes avec modération",
+      "name_es": "Use las sopas con moderación",
+      "tags_ar": [
+        "وجبات",
+        "استخدم الشوربة باعتدال",
+        "شوربة العظام والكوارع تستخدم وفق التوزيع الغذائي، ولا يكثر منها."
+      ],
+      "tags_en": [
+        "Meals",
+        "Use soups in moderation",
+        "Bone soup and trotters are used according to the meal distribution and should not be overused."
+      ],
+      "tags_fr": [
+        "Repas",
+        "Utiliser les soupes avec modération",
+        "La soupe d'os et les pieds sont utilisés selon la répartition alimentaire, sans excès."
+      ],
+      "tags_es": [
+        "Comidas",
+        "Use las sopas con moderación",
+        "La sopa de huesos y patas se usa según la distribución alimentaria y sin exceso."
+      ],
+      "sourceBook": "Tayibat Life.pdf"
+    },
+    {
+      "id": "tip-10",
+      "category": "طبخ",
+      "category_ar": "طبخ",
+      "category_en": "Cooking",
+      "category_fr": "Cuisine",
+      "category_es": "Cocina",
+      "title_ar": "اسلق اللحم جيداً",
+      "title_en": "Boil meat well",
+      "title_fr": "Bien bouillir la viande",
+      "title_es": "Hierva bien la carne",
+      "text_ar": "يجب سلق اللحم جيداً، وخصوصاً اللحم البقري، ثم تحميره جيداً.",
+      "text_en": "Meat, especially beef, should be boiled well and then browned thoroughly.",
+      "text_fr": "La viande, surtout le bœuf, doit être bien bouillie puis bien dorée.",
+      "text_es": "La carne, especialmente la de res, debe hervirse bien y luego dorarse completamente.",
+      "image": "./assets/tips/tip-10-cooked-meat.webp",
+      "alt_ar": "اسلق اللحم جيداً",
+      "alt_en": "Boil meat well",
+      "alt_fr": "Bien bouillir la viande",
+      "alt_es": "Hierva bien la carne",
+      "name_ar": "اسلق اللحم جيداً",
+      "name_en": "Boil meat well",
+      "name_fr": "Bien bouillir la viande",
+      "name_es": "Hierva bien la carne",
+      "tags_ar": [
+        "طبخ",
+        "اسلق اللحم جيداً",
+        "يجب سلق اللحم جيداً، وخصوصاً اللحم البقري، ثم تحميره جيداً."
+      ],
+      "tags_en": [
+        "Cooking",
+        "Boil meat well",
+        "Meat, especially beef, should be boiled well and then browned thoroughly."
+      ],
+      "tags_fr": [
+        "Cuisine",
+        "Bien bouillir la viande",
+        "La viande, surtout le bœuf, doit être bien bouillie puis bien dorée."
+      ],
+      "tags_es": [
+        "Cocina",
+        "Hierva bien la carne",
+        "La carne, especialmente la de res, debe hervirse bien y luego dorarse completamente."
+      ],
+      "sourceBook": "Tayibat Life.pdf"
+    },
+    {
+      "id": "tip-11",
+      "category": "خبز",
+      "category_ar": "خبز",
+      "category_en": "Bread",
+      "category_fr": "Pain",
+      "category_es": "Pan",
+      "title_ar": "طريقة العجن المنزلية",
+      "title_en": "Home kneading method",
+      "title_fr": "Méthode de pétrissage maison",
+      "title_es": "Método de amasado casero",
+      "text_ar": "طريقة العجن المنزلية في الكتاب: 4 مكاييل حبة كاملة مع 2 مكيال ردة.",
+      "text_en": "The home kneading method in the book is 4 measures of whole grain with 2 measures of bran.",
+      "text_fr": "La méthode de pétrissage maison du livre : 4 mesures de grain complet avec 2 mesures de son.",
+      "text_es": "El método de amasado casero del libro: 4 medidas de grano integral con 2 medidas de salvado.",
+      "image": "./assets/tips/tip-11-homemade-bread.webp",
+      "alt_ar": "طريقة العجن المنزلية",
+      "alt_en": "Home kneading method",
+      "alt_fr": "Méthode de pétrissage maison",
+      "alt_es": "Método de amasado casero",
+      "name_ar": "طريقة العجن المنزلية",
+      "name_en": "Home kneading method",
+      "name_fr": "Méthode de pétrissage maison",
+      "name_es": "Método de amasado casero",
+      "tags_ar": [
+        "خبز",
+        "طريقة العجن المنزلية",
+        "طريقة العجن المنزلية في الكتاب: 4 مكاييل حبة كاملة مع 2 مكيال ردة."
+      ],
+      "tags_en": [
+        "Bread",
+        "Home kneading method",
+        "The home kneading method in the book is 4 measures of whole grain with 2 measures of bran."
+      ],
+      "tags_fr": [
+        "Pain",
+        "Méthode de pétrissage maison",
+        "La méthode de pétrissage maison du livre : 4 mesures de grain complet avec 2 mesures de son."
+      ],
+      "tags_es": [
+        "Pan",
+        "Método de amasado casero",
+        "El método de amasado casero del libro: 4 medidas de grano integral con 2 medidas de salvado."
+      ],
+      "sourceBook": "Tayibat Life.pdf"
+    },
+    {
+      "id": "tip-12",
+      "category": "ممنوعات",
+      "category_ar": "ممنوعات",
+      "category_en": "Forbidden items",
+      "category_fr": "Interdits",
+      "category_es": "Prohibidos",
+      "title_ar": "احذر التوابل القوية",
+      "title_en": "Beware of strong spices",
+      "title_fr": "Attention aux épices fortes",
+      "title_es": "Cuidado con las especias fuertes",
+      "text_ar": "احذر من الفلفل الأسود والبهارات والتوابل القوية.",
+      "text_en": "Beware of black pepper, spice blends, and strong spices.",
+      "text_fr": "Faites attention au poivre noir, aux mélanges d'épices et aux épices fortes.",
+      "text_es": "Tenga cuidado con la pimienta negra, las mezclas de especias y las especias fuertes.",
+      "image": "./assets/tips/tip-12-strong-spices-warning.webp",
+      "alt_ar": "احذر التوابل القوية",
+      "alt_en": "Beware of strong spices",
+      "alt_fr": "Attention aux épices fortes",
+      "alt_es": "Cuidado con las especias fuertes",
+      "name_ar": "احذر التوابل القوية",
+      "name_en": "Beware of strong spices",
+      "name_fr": "Attention aux épices fortes",
+      "name_es": "Cuidado con las especias fuertes",
+      "tags_ar": [
+        "ممنوعات",
+        "احذر التوابل القوية",
+        "احذر من الفلفل الأسود والبهارات والتوابل القوية."
+      ],
+      "tags_en": [
+        "Forbidden items",
+        "Beware of strong spices",
+        "Beware of black pepper, spice blends, and strong spices."
+      ],
+      "tags_fr": [
+        "Interdits",
+        "Attention aux épices fortes",
+        "Faites attention au poivre noir, aux mélanges d'épices et aux épices fortes."
+      ],
+      "tags_es": [
+        "Prohibidos",
+        "Cuidado con las especias fuertes",
+        "Tenga cuidado con la pimienta negra, las mezclas de especias y las especias fuertes."
+      ],
+      "sourceBook": "Tayibat Life.pdf"
+    },
+    {
+      "id": "tip-13",
+      "category": "ممنوعات",
+      "category_ar": "ممنوعات",
+      "category_en": "Forbidden items",
+      "category_fr": "Interdits",
+      "category_es": "Prohibidos",
+      "title_ar": "لا تكثر من الفول السوداني",
+      "title_en": "Do not overuse peanuts",
+      "title_fr": "Ne pas abuser des cacahuètes",
+      "title_es": "No abuse del maní",
+      "text_ar": "زيادة الفول السوداني ممنوعة.",
+      "text_en": "Excess peanuts are forbidden.",
+      "text_fr": "L'excès de cacahuètes est interdit.",
+      "text_es": "El exceso de maní está prohibido.",
+      "image": "./assets/tips/tip-13-peanuts-warning.webp",
+      "alt_ar": "لا تكثر من الفول السوداني",
+      "alt_en": "Do not overuse peanuts",
+      "alt_fr": "Ne pas abuser des cacahuètes",
+      "alt_es": "No abuse del maní",
+      "name_ar": "لا تكثر من الفول السوداني",
+      "name_en": "Do not overuse peanuts",
+      "name_fr": "Ne pas abuser des cacahuètes",
+      "name_es": "No abuse del maní",
+      "tags_ar": [
+        "ممنوعات",
+        "لا تكثر من الفول السوداني",
+        "زيادة الفول السوداني ممنوعة."
+      ],
+      "tags_en": [
+        "Forbidden items",
+        "Do not overuse peanuts",
+        "Excess peanuts are forbidden."
+      ],
+      "tags_fr": [
+        "Interdits",
+        "Ne pas abuser des cacahuètes",
+        "L'excès de cacahuètes est interdit."
+      ],
+      "tags_es": [
+        "Prohibidos",
+        "No abuse del maní",
+        "El exceso de maní está prohibido."
+      ],
+      "sourceBook": "Tayibat Life.pdf"
+    },
+    {
+      "id": "tip-14",
+      "category": "سمك",
+      "category_ar": "سمك",
+      "category_en": "Fish",
+      "category_fr": "Poisson",
+      "category_es": "Pescado",
+      "title_ar": "اختر السمك البحري الطازج",
+      "title_en": "Choose fresh sea fish",
+      "title_fr": "Choisir du poisson de mer frais",
+      "title_es": "Elija pescado marino fresco",
+      "text_ar": "يفضل تناول الأسماك البحرية الطازجة فقط وتجنب أسماك المزارع عند اتباع الملاحظة الطبية.",
+      "text_en": "Prefer fresh sea fish only and avoid farmed fish when following the medical note.",
+      "text_fr": "Privilégiez uniquement les poissons de mer frais et évitez les poissons d'élevage selon la remarque médicale.",
+      "text_es": "Prefiera solo pescado marino fresco y evite el pescado de criadero al seguir la nota médica.",
+      "image": "./assets/tips/tip-14-fresh-sea-fish.webp",
+      "alt_ar": "اختر السمك البحري الطازج",
+      "alt_en": "Choose fresh sea fish",
+      "alt_fr": "Choisir du poisson de mer frais",
+      "alt_es": "Elija pescado marino fresco",
+      "name_ar": "اختر السمك البحري الطازج",
+      "name_en": "Choose fresh sea fish",
+      "name_fr": "Choisir du poisson de mer frais",
+      "name_es": "Elija pescado marino fresco",
+      "tags_ar": [
+        "سمك",
+        "اختر السمك البحري الطازج",
+        "يفضل تناول الأسماك البحرية الطازجة فقط وتجنب أسماك المزارع عند اتباع الملاحظة الطبية."
+      ],
+      "tags_en": [
+        "Fish",
+        "Choose fresh sea fish",
+        "Prefer fresh sea fish only and avoid farmed fish when following the medical note."
+      ],
+      "tags_fr": [
+        "Poisson",
+        "Choisir du poisson de mer frais",
+        "Privilégiez uniquement les poissons de mer frais et évitez les poissons d'élevage selon la remarque médicale."
+      ],
+      "tags_es": [
+        "Pescado",
+        "Elija pescado marino fresco",
+        "Prefiera solo pescado marino fresco y evite el pescado de criadero al seguir la nota médica."
+      ],
+      "sourceBook": "Tayibat Life.pdf"
+    },
+    {
+      "id": "tip-15",
+      "category": "منهج",
+      "category_ar": "منهج",
+      "category_en": "System",
+      "category_fr": "Méthode",
+      "category_es": "Método",
+      "title_ar": "منهج لا يجهد الجسم",
+      "title_en": "A system that does not burden the body",
+      "title_fr": "Une méthode qui ne surcharge pas le corps",
+      "title_es": "Un método que no sobrecarga el cuerpo",
+      "text_ar": "نظام طيبات قائم على ألا يضر الجسم، ولا يجهد جهاز المناعة، ولا يحتوي على سموم.",
+      "text_en": "Tayibat is based on not harming the body, not burdening the immune system, and not containing toxins.",
+      "text_fr": "Tayibat repose sur le fait de ne pas nuire au corps, de ne pas fatiguer le système immunitaire et de ne pas contenir de toxines.",
+      "text_es": "Tayibat se basa en no dañar el cuerpo, no agotar el sistema inmunitario y no contener toxinas.",
+      "image": "./assets/tips/tip-15-tayibat-system-shield.webp",
+      "alt_ar": "منهج لا يجهد الجسم",
+      "alt_en": "A system that does not burden the body",
+      "alt_fr": "Une méthode qui ne surcharge pas le corps",
+      "alt_es": "Un método que no sobrecarga el cuerpo",
+      "name_ar": "منهج لا يجهد الجسم",
+      "name_en": "A system that does not burden the body",
+      "name_fr": "Une méthode qui ne surcharge pas le corps",
+      "name_es": "Un método que no sobrecarga el cuerpo",
+      "tags_ar": [
+        "منهج",
+        "منهج لا يجهد الجسم",
+        "نظام طيبات قائم على ألا يضر الجسم، ولا يجهد جهاز المناعة، ولا يحتوي على سموم."
+      ],
+      "tags_en": [
+        "System",
+        "A system that does not burden the body",
+        "Tayibat is based on not harming the body, not burdening the immune system, and not containing toxins."
+      ],
+      "tags_fr": [
+        "Méthode",
+        "Une méthode qui ne surcharge pas le corps",
+        "Tayibat repose sur le fait de ne pas nuire au corps, de ne pas fatiguer le système immunitaire et de ne pas contenir de toxines."
+      ],
+      "tags_es": [
+        "Método",
+        "Un método que no sobrecarga el cuerpo",
+        "Tayibat se basa en no dañar el cuerpo, no agotar el sistema inmunitario y no contener toxinas."
+      ],
+      "sourceBook": "Tayibat Life.pdf"
+    },
+    {
+      "id": "tip-16",
+      "category": "منهج",
+      "category_ar": "منهج",
+      "category_en": "System",
+      "category_fr": "Méthode",
+      "category_es": "Método",
+      "title_ar": "وقائي وليس بديلاً للطبيب",
+      "title_en": "Preventive, not a doctor replacement",
+      "title_fr": "Préventif, pas un remplacement du médecin",
+      "title_es": "Preventivo, no reemplaza al médico",
+      "text_ar": "نظام طيبات نظام استشفائي ووقائي، وليس بديلاً عن متابعة الطبيب.",
+      "text_en": "Tayibat is a restorative and preventive system, not a substitute for medical follow-up.",
+      "text_fr": "Tayibat est un système réparateur et préventif, et ne remplace pas le suivi médical.",
+      "text_es": "Tayibat es un sistema restaurador y preventivo, no sustituye el seguimiento médico.",
+      "image": "./assets/tips/tip-16-medical-followup.webp",
+      "alt_ar": "وقائي وليس بديلاً للطبيب",
+      "alt_en": "Preventive, not a doctor replacement",
+      "alt_fr": "Préventif, pas un remplacement du médecin",
+      "alt_es": "Preventivo, no reemplaza al médico",
+      "name_ar": "وقائي وليس بديلاً للطبيب",
+      "name_en": "Preventive, not a doctor replacement",
+      "name_fr": "Préventif, pas un remplacement du médecin",
+      "name_es": "Preventivo, no reemplaza al médico",
+      "tags_ar": [
+        "منهج",
+        "وقائي وليس بديلاً للطبيب",
+        "نظام طيبات نظام استشفائي ووقائي، وليس بديلاً عن متابعة الطبيب."
+      ],
+      "tags_en": [
+        "System",
+        "Preventive, not a doctor replacement",
+        "Tayibat is a restorative and preventive system, not a substitute for medical follow-up."
+      ],
+      "tags_fr": [
+        "Méthode",
+        "Préventif, pas un remplacement du médecin",
+        "Tayibat est un système réparateur et préventif, et ne remplace pas le suivi médical."
+      ],
+      "tags_es": [
+        "Método",
+        "Preventivo, no reemplaza al médico",
+        "Tayibat es un sistema restaurador y preventivo, no sustituye el seguimiento médico."
+      ],
+      "sourceBook": "Tayibat Life.pdf"
+    },
+    {
+      "id": "tip-17",
+      "category": "سناك",
+      "category_ar": "سناك",
+      "category_en": "Snack",
+      "category_fr": "Collation",
+      "category_es": "Snack",
+      "title_ar": "السناك باعتدال",
+      "title_en": "Snack in moderation",
+      "title_fr": "Collation avec modération",
+      "title_es": "Snack con moderación",
+      "text_ar": "الفواكه الجافة والمكسرات تؤكل باعتدال للحصول على الفائدة دون زيادة السعرات.",
+      "text_en": "Dried fruits and nuts are eaten in moderation to get benefit without extra calories.",
+      "text_fr": "Les fruits secs et les noix se consomment avec modération pour profiter de leurs bienfaits sans excès de calories.",
+      "text_es": "Las frutas deshidratadas y los frutos secos se comen con moderación para obtener beneficios sin calorías extra.",
+      "image": "./assets/tips/tip-17-dried-fruits-nuts.webp",
+      "alt_ar": "السناك باعتدال",
+      "alt_en": "Snack in moderation",
+      "alt_fr": "Collation avec modération",
+      "alt_es": "Snack con moderación",
+      "name_ar": "السناك باعتدال",
+      "name_en": "Snack in moderation",
+      "name_fr": "Collation avec modération",
+      "name_es": "Snack con moderación",
+      "tags_ar": [
+        "سناك",
+        "السناك باعتدال",
+        "الفواكه الجافة والمكسرات تؤكل باعتدال للحصول على الفائدة دون زيادة السعرات."
+      ],
+      "tags_en": [
+        "Snack",
+        "Snack in moderation",
+        "Dried fruits and nuts are eaten in moderation to get benefit without extra calories."
+      ],
+      "tags_fr": [
+        "Collation",
+        "Collation avec modération",
+        "Les fruits secs et les noix se consomment avec modération pour profiter de leurs bienfaits sans excès de calories."
+      ],
+      "tags_es": [
+        "Snack",
+        "Snack con moderación",
+        "Las frutas deshidratadas y los frutos secos se comen con moderación para obtener beneficios sin calorías extra."
+      ],
+      "sourceBook": "Tayibat Life.pdf"
+    },
+    {
+      "id": "tip-18",
+      "category": "تنوع",
+      "category_ar": "تنوع",
+      "category_en": "Diversity",
+      "category_fr": "Variété",
+      "category_es": "Variedad",
+      "title_ar": "نوّع اختياراتك",
+      "title_en": "Vary your choices",
+      "title_fr": "Variez vos choix",
+      "title_es": "Varíe sus opciones",
+      "text_ar": "يفضل تنويع الأنواع للحصول على فائدة غذائية أفضل.",
+      "text_en": "Vary the types of food to get better nutritional benefit.",
+      "text_fr": "Variez les types d'aliments pour obtenir un meilleur bénéfice nutritionnel.",
+      "text_es": "Varíe los tipos de alimentos para obtener un mejor beneficio nutricional.",
+      "image": "./assets/tips/tip-18-food-variety.webp",
+      "alt_ar": "نوّع اختياراتك",
+      "alt_en": "Vary your choices",
+      "alt_fr": "Variez vos choix",
+      "alt_es": "Varíe sus opciones",
+      "name_ar": "نوّع اختياراتك",
+      "name_en": "Vary your choices",
+      "name_fr": "Variez vos choix",
+      "name_es": "Varíe sus opciones",
+      "tags_ar": [
+        "تنوع",
+        "نوّع اختياراتك",
+        "يفضل تنويع الأنواع للحصول على فائدة غذائية أفضل."
+      ],
+      "tags_en": [
+        "Diversity",
+        "Vary your choices",
+        "Vary the types of food to get better nutritional benefit."
+      ],
+      "tags_fr": [
+        "Variété",
+        "Variez vos choix",
+        "Variez les types d'aliments pour obtenir un meilleur bénéfice nutritionnel."
+      ],
+      "tags_es": [
+        "Variedad",
+        "Varíe sus opciones",
+        "Varíe los tipos de alimentos para obtener un mejor beneficio nutricional."
+      ],
+      "sourceBook": "Tayibat Life.pdf"
+    },
+    {
+      "id": "tip-19",
+      "category": "طبخ",
+      "category_ar": "طبخ",
+      "category_en": "Cooking",
+      "category_fr": "Cuisine",
+      "category_es": "Cocina",
+      "title_ar": "حضّر الخضار بطرق صحية",
+      "title_en": "Prepare vegetables healthily",
+      "title_fr": "Préparer les légumes sainement",
+      "title_es": "Prepare las verduras saludablemente",
+      "text_ar": "الخضار تحضر بطرق صحية مثل السلق والشواء والطهي بالبخار، مع تجنب القلي الكثير.",
+      "text_en": "Prepare vegetables in healthy ways such as boiling, grilling, or steaming, and avoid heavy frying.",
+      "text_fr": "Préparez les légumes sainement : bouillis, grillés ou à la vapeur, et évitez la friture excessive.",
+      "text_es": "Prepare las verduras de forma saludable: hervidas, asadas o al vapor, y evite freír en exceso.",
+      "image": "./assets/tips/tip-19-steamed-vegetables.webp",
+      "alt_ar": "حضّر الخضار بطرق صحية",
+      "alt_en": "Prepare vegetables healthily",
+      "alt_fr": "Préparer les légumes sainement",
+      "alt_es": "Prepare las verduras saludablemente",
+      "name_ar": "حضّر الخضار بطرق صحية",
+      "name_en": "Prepare vegetables healthily",
+      "name_fr": "Préparer les légumes sainement",
+      "name_es": "Prepare las verduras saludablemente",
+      "tags_ar": [
+        "طبخ",
+        "حضّر الخضار بطرق صحية",
+        "الخضار تحضر بطرق صحية مثل السلق والشواء والطهي بالبخار، مع تجنب القلي الكثير."
+      ],
+      "tags_en": [
+        "Cooking",
+        "Prepare vegetables healthily",
+        "Prepare vegetables in healthy ways such as boiling, grilling, or steaming, and avoid heavy frying."
+      ],
+      "tags_fr": [
+        "Cuisine",
+        "Préparer les légumes sainement",
+        "Préparez les légumes sainement : bouillis, grillés ou à la vapeur, et évitez la friture excessive."
+      ],
+      "tags_es": [
+        "Cocina",
+        "Prepare las verduras saludablemente",
+        "Prepare las verduras de forma saludable: hervidas, asadas o al vapor, y evite freír en exceso."
+      ],
+      "sourceBook": "Tayibat Life.pdf"
+    },
+    {
+      "id": "tip-20",
+      "category": "جودة",
+      "category_ar": "جودة",
+      "category_en": "Quality",
+      "category_fr": "Qualité",
+      "category_es": "Calidad",
+      "title_ar": "الجودة مع الاعتدال",
+      "title_en": "Quality with moderation",
+      "title_fr": "Qualité avec modération",
+      "title_es": "Calidad con moderación",
+      "text_ar": "الاعتدال هو المفتاح، مع اختيار منتجات طبيعية وعالية الجودة.",
+      "text_en": "Moderation is the key, with natural, high-quality choices.",
+      "text_fr": "La modération est essentielle, avec des produits naturels et de haute qualité.",
+      "text_es": "La moderación es clave, con productos naturales y de alta calidad.",
+      "image": "./assets/tips/tip-20-quality-natural-food.webp",
+      "alt_ar": "الجودة مع الاعتدال",
+      "alt_en": "Quality with moderation",
+      "alt_fr": "Qualité avec modération",
+      "alt_es": "Calidad con moderación",
+      "name_ar": "الجودة مع الاعتدال",
+      "name_en": "Quality with moderation",
+      "name_fr": "Qualité avec modération",
+      "name_es": "Calidad con moderación",
+      "tags_ar": [
+        "جودة",
+        "الجودة مع الاعتدال",
+        "الاعتدال هو المفتاح، مع اختيار منتجات طبيعية وعالية الجودة."
+      ],
+      "tags_en": [
+        "Quality",
+        "Quality with moderation",
+        "Moderation is the key, with natural, high-quality choices."
+      ],
+      "tags_fr": [
+        "Qualité",
+        "Qualité avec modération",
+        "La modération est essentielle, avec des produits naturels et de haute qualité."
+      ],
+      "tags_es": [
+        "Calidad",
+        "Calidad con moderación",
+        "La moderación es clave, con productos naturales y de alta calidad."
+      ],
+      "sourceBook": "Tayibat Life.pdf"
+    },
+    {
+      "id": "tip-21",
+      "category": "حمل",
+      "category_ar": "حمل",
+      "category_en": "Pregnancy",
+      "category_fr": "Grossesse",
+      "category_es": "Embarazo",
+      "title_ar": "غذاء صحي للحامل",
+      "title_en": "Healthy food during pregnancy",
+      "title_fr": "Alimentation saine pendant la grossesse",
+      "title_es": "Alimentación saludable durante el embarazo",
+      "text_ar": "الحامل تحتاج طعاماً صحياً ومتوازناً ومتابعة منتظمة مع الطبيب.",
+      "text_en": "Pregnant women need healthy balanced food and regular medical follow-up.",
+      "text_fr": "La femme enceinte a besoin d'une alimentation saine et équilibrée et d'un suivi médical régulier.",
+      "text_es": "La embarazada necesita una alimentación sana y equilibrada y seguimiento médico regular.",
+      "image": "./assets/tips/tip-21-pregnancy-healthy-food.webp",
+      "alt_ar": "غذاء صحي للحامل",
+      "alt_en": "Healthy food during pregnancy",
+      "alt_fr": "Alimentation saine pendant la grossesse",
+      "alt_es": "Alimentación saludable durante el embarazo",
+      "name_ar": "غذاء صحي للحامل",
+      "name_en": "Healthy food during pregnancy",
+      "name_fr": "Alimentation saine pendant la grossesse",
+      "name_es": "Alimentación saludable durante el embarazo",
+      "tags_ar": [
+        "حمل",
+        "غذاء صحي للحامل",
+        "الحامل تحتاج طعاماً صحياً ومتوازناً ومتابعة منتظمة مع الطبيب."
+      ],
+      "tags_en": [
+        "Pregnancy",
+        "Healthy food during pregnancy",
+        "Pregnant women need healthy balanced food and regular medical follow-up."
+      ],
+      "tags_fr": [
+        "Grossesse",
+        "Alimentation saine pendant la grossesse",
+        "La femme enceinte a besoin d'une alimentation saine et équilibrée et d'un suivi médical régulier."
+      ],
+      "tags_es": [
+        "Embarazo",
+        "Alimentación saludable durante el embarazo",
+        "La embarazada necesita una alimentación sana y equilibrada y seguimiento médico regular."
+      ],
+      "sourceBook": "Tayibat Life.pdf"
+    },
+    {
+      "id": "tip-22",
+      "category": "حمل",
+      "category_ar": "حمل",
+      "category_en": "Pregnancy",
+      "category_fr": "Grossesse",
+      "category_es": "Embarazo",
+      "title_ar": "ماء كاف للحامل",
+      "title_en": "Enough water during pregnancy",
+      "title_fr": "Assez d'eau pendant la grossesse",
+      "title_es": "Agua suficiente durante el embarazo",
+      "text_ar": "للحامل: اشربي 8 إلى 10 أكواب من الماء يومياً حسب الحاجة الطبية.",
+      "text_en": "For pregnancy: drink 8 to 10 cups of water daily according to medical need.",
+      "text_fr": "Grossesse : buvez 8 à 10 verres d'eau par jour selon le besoin médical.",
+      "text_es": "Durante el embarazo: beba de 8 a 10 vasos de agua al día según la necesidad médica.",
+      "image": "./assets/tips/tip-22-pregnancy-water.webp",
+      "alt_ar": "ماء كاف للحامل",
+      "alt_en": "Enough water during pregnancy",
+      "alt_fr": "Assez d'eau pendant la grossesse",
+      "alt_es": "Agua suficiente durante el embarazo",
+      "name_ar": "ماء كاف للحامل",
+      "name_en": "Enough water during pregnancy",
+      "name_fr": "Assez d'eau pendant la grossesse",
+      "name_es": "Agua suficiente durante el embarazo",
+      "tags_ar": [
+        "حمل",
+        "ماء كاف للحامل",
+        "للحامل: اشربي 8 إلى 10 أكواب من الماء يومياً حسب الحاجة الطبية."
+      ],
+      "tags_en": [
+        "Pregnancy",
+        "Enough water during pregnancy",
+        "For pregnancy: drink 8 to 10 cups of water daily according to medical need."
+      ],
+      "tags_fr": [
+        "Grossesse",
+        "Assez d'eau pendant la grossesse",
+        "Grossesse : buvez 8 à 10 verres d'eau par jour selon le besoin médical."
+      ],
+      "tags_es": [
+        "Embarazo",
+        "Agua suficiente durante el embarazo",
+        "Durante el embarazo: beba de 8 a 10 vasos de agua al día según la necesidad médica."
+      ],
+      "sourceBook": "Tayibat Life.pdf"
+    },
+    {
+      "id": "tip-23",
+      "category": "حمل",
+      "category_ar": "حمل",
+      "category_en": "Pregnancy",
+      "category_fr": "Grossesse",
+      "category_es": "Embarazo",
+      "title_ar": "النوم والراحة للحامل",
+      "title_en": "Sleep and rest during pregnancy",
+      "title_fr": "Sommeil et repos pendant la grossesse",
+      "title_es": "Sueño y descanso durante el embarazo",
+      "text_ar": "للحامل: احصلي على قسط كاف من النوم والراحة.",
+      "text_en": "For pregnancy: get enough sleep and rest.",
+      "text_fr": "Grossesse : dormez et reposez-vous suffisamment.",
+      "text_es": "Durante el embarazo: duerma y descanse lo suficiente.",
+      "image": "./assets/tips/tip-23-pregnancy-sleep.webp",
+      "alt_ar": "النوم والراحة للحامل",
+      "alt_en": "Sleep and rest during pregnancy",
+      "alt_fr": "Sommeil et repos pendant la grossesse",
+      "alt_es": "Sueño y descanso durante el embarazo",
+      "name_ar": "النوم والراحة للحامل",
+      "name_en": "Sleep and rest during pregnancy",
+      "name_fr": "Sommeil et repos pendant la grossesse",
+      "name_es": "Sueño y descanso durante el embarazo",
+      "tags_ar": [
+        "حمل",
+        "النوم والراحة للحامل",
+        "للحامل: احصلي على قسط كاف من النوم والراحة."
+      ],
+      "tags_en": [
+        "Pregnancy",
+        "Sleep and rest during pregnancy",
+        "For pregnancy: get enough sleep and rest."
+      ],
+      "tags_fr": [
+        "Grossesse",
+        "Sommeil et repos pendant la grossesse",
+        "Grossesse : dormez et reposez-vous suffisamment."
+      ],
+      "tags_es": [
+        "Embarazo",
+        "Sueño y descanso durante el embarazo",
+        "Durante el embarazo: duerma y descanse lo suficiente."
+      ],
+      "sourceBook": "Tayibat Life.pdf"
+    },
+    {
+      "id": "tip-24",
+      "category": "حمل",
+      "category_ar": "حمل",
+      "category_en": "Pregnancy",
+      "category_fr": "Grossesse",
+      "category_es": "Embarazo",
+      "title_ar": "حركة خفيفة للحامل",
+      "title_en": "Light movement during pregnancy",
+      "title_fr": "Activité légère pendant la grossesse",
+      "title_es": "Movimiento ligero durante el embarazo",
+      "text_ar": "للحامل: مارسي رياضة خفيفة مثل المشي يومياً إذا سمح الطبيب.",
+      "text_en": "For pregnancy: do light activity such as walking daily if the doctor allows it.",
+      "text_fr": "Grossesse : faites une activité légère comme la marche quotidienne si le médecin l'autorise.",
+      "text_es": "Durante el embarazo: haga actividad ligera como caminar diariamente si el médico lo permite.",
+      "image": "./assets/tips/tip-24-pregnancy-walking.webp",
+      "alt_ar": "حركة خفيفة للحامل",
+      "alt_en": "Light movement during pregnancy",
+      "alt_fr": "Activité légère pendant la grossesse",
+      "alt_es": "Movimiento ligero durante el embarazo",
+      "name_ar": "حركة خفيفة للحامل",
+      "name_en": "Light movement during pregnancy",
+      "name_fr": "Activité légère pendant la grossesse",
+      "name_es": "Movimiento ligero durante el embarazo",
+      "tags_ar": [
+        "حمل",
+        "حركة خفيفة للحامل",
+        "للحامل: مارسي رياضة خفيفة مثل المشي يومياً إذا سمح الطبيب."
+      ],
+      "tags_en": [
+        "Pregnancy",
+        "Light movement during pregnancy",
+        "For pregnancy: do light activity such as walking daily if the doctor allows it."
+      ],
+      "tags_fr": [
+        "Grossesse",
+        "Activité légère pendant la grossesse",
+        "Grossesse : faites une activité légère comme la marche quotidienne si le médecin l'autorise."
+      ],
+      "tags_es": [
+        "Embarazo",
+        "Movimiento ligero durante el embarazo",
+        "Durante el embarazo: haga actividad ligera como caminar diariamente si el médico lo permite."
+      ],
+      "sourceBook": "Tayibat Life.pdf"
+    },
+    {
+      "id": "tip-25",
+      "category": "حمل",
+      "category_ar": "حمل",
+      "category_en": "Pregnancy",
+      "category_fr": "Grossesse",
+      "category_es": "Embarazo",
+      "title_ar": "ابتعدي عن التوتر",
+      "title_en": "Stay away from stress",
+      "title_fr": "Éviter le stress",
+      "title_es": "Evite el estrés",
+      "text_ar": "للحامل: ابتعدي عن التوتر والقلق قدر الإمكان.",
+      "text_en": "For pregnancy: avoid stress and anxiety as much as possible.",
+      "text_fr": "Grossesse : évitez le stress et l'anxiété autant que possible.",
+      "text_es": "Durante el embarazo: evite el estrés y la ansiedad tanto como sea posible.",
+      "image": "./assets/tips/tip-25-pregnancy-relaxation.webp",
+      "alt_ar": "ابتعدي عن التوتر",
+      "alt_en": "Stay away from stress",
+      "alt_fr": "Éviter le stress",
+      "alt_es": "Evite el estrés",
+      "name_ar": "ابتعدي عن التوتر",
+      "name_en": "Stay away from stress",
+      "name_fr": "Éviter le stress",
+      "name_es": "Evite el estrés",
+      "tags_ar": [
+        "حمل",
+        "ابتعدي عن التوتر",
+        "للحامل: ابتعدي عن التوتر والقلق قدر الإمكان."
+      ],
+      "tags_en": [
+        "Pregnancy",
+        "Stay away from stress",
+        "For pregnancy: avoid stress and anxiety as much as possible."
+      ],
+      "tags_fr": [
+        "Grossesse",
+        "Éviter le stress",
+        "Grossesse : évitez le stress et l'anxiété autant que possible."
+      ],
+      "tags_es": [
+        "Embarazo",
+        "Evite el estrés",
+        "Durante el embarazo: evite el estrés y la ansiedad tanto como sea posible."
+      ],
+      "sourceBook": "Tayibat Life.pdf"
+    },
+    {
+      "id": "tip-26",
+      "category": "طبي",
+      "category_ar": "طبي",
+      "category_en": "Medical",
+      "category_fr": "Médical",
+      "category_es": "Médico",
+      "title_ar": "استشر طبيبك أولاً",
+      "title_en": "Consult your doctor first",
+      "title_fr": "Consultez d'abord votre médecin",
+      "title_es": "Consulte primero a su médico",
+      "text_ar": "استشر طبيبك قبل تطبيق أي نظام غذائي أو تغييرات في نمط حياتك.",
+      "text_en": "Consult your doctor before starting any diet or lifestyle change.",
+      "text_fr": "Consultez votre médecin avant tout régime ou changement de mode de vie.",
+      "text_es": "Consulte a su médico antes de iniciar cualquier dieta o cambio de estilo de vida.",
+      "image": "./assets/tips/tip-26-consult-doctor.webp",
+      "alt_ar": "استشر طبيبك أولاً",
+      "alt_en": "Consult your doctor first",
+      "alt_fr": "Consultez d'abord votre médecin",
+      "alt_es": "Consulte primero a su médico",
+      "name_ar": "استشر طبيبك أولاً",
+      "name_en": "Consult your doctor first",
+      "name_fr": "Consultez d'abord votre médecin",
+      "name_es": "Consulte primero a su médico",
+      "tags_ar": [
+        "طبي",
+        "استشر طبيبك أولاً",
+        "استشر طبيبك قبل تطبيق أي نظام غذائي أو تغييرات في نمط حياتك."
+      ],
+      "tags_en": [
+        "Medical",
+        "Consult your doctor first",
+        "Consult your doctor before starting any diet or lifestyle change."
+      ],
+      "tags_fr": [
+        "Médical",
+        "Consultez d'abord votre médecin",
+        "Consultez votre médecin avant tout régime ou changement de mode de vie."
+      ],
+      "tags_es": [
+        "Médico",
+        "Consulte primero a su médico",
+        "Consulte a su médico antes de iniciar cualquier dieta o cambio de estilo de vida."
+      ],
+      "sourceBook": "Tayibat Life.pdf"
+    },
+    {
+      "id": "tip-27",
+      "category": "ملاحظات الطبيب",
+      "category_ar": "ملاحظات الطبيب",
+      "category_en": "Doctor notes",
+      "category_fr": "Notes médicales",
+      "category_es": "Notas médicas",
+      "sourcePage": 22,
+      "sourcePages": [
+        22
+      ],
+      "sourceBook": "Tayibat Life.pdf",
+      "title_ar": "القدم لا يمتص",
+      "title_en": "The foot does not absorb",
+      "title_fr": "Le pied n'absorbe pas",
+      "title_es": "El pie no absorbe",
+      "text_ar": "تذكر ملاحظات الطبيب في ملف PDF أن القدم لا يمتص.",
+      "text_en": "The doctor's PDF notes state that the foot does not absorb.",
+      "text_fr": "Les notes médicales du PDF indiquent que le pied n'absorbe pas.",
+      "text_es": "Las notas médicas del PDF indican que el pie no absorbe.",
+      "image": "./assets/tips/feet-health.webp",
+      "alt_ar": "القدم لا يمتص",
+      "alt_en": "The foot does not absorb",
+      "alt_fr": "Le pied n'absorbe pas",
+      "alt_es": "El pie no absorbe",
+      "name_ar": "القدم لا يمتص",
+      "name_en": "The foot does not absorb",
+      "name_fr": "Le pied n'absorbe pas",
+      "name_es": "El pie no absorbe",
+      "tags_ar": [
+        "ملاحظات الطبيب",
+        "مصدر PDF"
+      ],
+      "tags_en": [
+        "Doctor notes",
+        "PDF source"
+      ],
+      "tags_fr": [
+        "Notes médicales",
+        "source PDF"
+      ],
+      "tags_es": [
+        "Notas médicas",
+        "fuente PDF"
+      ]
+    },
+    {
+      "id": "tip-28",
+      "category": "ملاحظات الطبيب",
+      "category_ar": "ملاحظات الطبيب",
+      "category_en": "Doctor notes",
+      "category_fr": "Notes médicales",
+      "category_es": "Notas médicas",
+      "sourcePage": 22,
+      "sourcePages": [
+        22
+      ],
+      "sourceBook": "Tayibat Life.pdf",
+      "title_ar": "سم النحل مفيد جداً",
+      "title_en": "Bee venom is very useful",
+      "title_fr": "Le venin d'abeille est très utile",
+      "title_es": "El veneno de abeja es muy útil",
+      "text_ar": "تذكر ملاحظات الطبيب أن سم النحل مفيد جداً.",
+      "text_en": "The doctor's notes say bee venom is very useful.",
+      "text_fr": "Les notes médicales indiquent que le venin d'abeille est très utile.",
+      "text_es": "Las notas médicas indican que el veneno de abeja es muy útil.",
+      "image": "./assets/tips/bee-venom.webp",
+      "alt_ar": "سم النحل مفيد جداً",
+      "alt_en": "Bee venom is very useful",
+      "alt_fr": "Le venin d'abeille est très utile",
+      "alt_es": "El veneno de abeja es muy útil",
+      "name_ar": "سم النحل مفيد جداً",
+      "name_en": "Bee venom is very useful",
+      "name_fr": "Le venin d'abeille est très utile",
+      "name_es": "El veneno de abeja es muy útil",
+      "tags_ar": [
+        "ملاحظات الطبيب",
+        "مصدر PDF"
+      ],
+      "tags_en": [
+        "Doctor notes",
+        "PDF source"
+      ],
+      "tags_fr": [
+        "Notes médicales",
+        "source PDF"
+      ],
+      "tags_es": [
+        "Notas médicas",
+        "fuente PDF"
+      ]
+    },
+    {
+      "id": "tip-29",
+      "category": "ملاحظات الطبيب",
+      "category_ar": "ملاحظات الطبيب",
+      "category_en": "Doctor notes",
+      "category_fr": "Notes médicales",
+      "category_es": "Notas médicas",
+      "sourcePage": 22,
+      "sourcePages": [
+        22
+      ],
+      "sourceBook": "Tayibat Life.pdf",
+      "title_ar": "الطب الصيني مفيد",
+      "title_en": "Chinese medicine is useful",
+      "title_fr": "La médecine chinoise est utile",
+      "title_es": "La medicina china es útil",
+      "text_ar": "تذكر ملاحظات الطبيب أن الطب الصيني مفيد.",
+      "text_en": "The doctor's notes say Chinese medicine is useful.",
+      "text_fr": "Les notes médicales indiquent que la médecine chinoise est utile.",
+      "text_es": "Las notas médicas indican que la medicina china es útil.",
+      "image": "./assets/tips/chinese-medicine.webp",
+      "alt_ar": "الطب الصيني مفيد",
+      "alt_en": "Chinese medicine is useful",
+      "alt_fr": "La médecine chinoise est utile",
+      "alt_es": "La medicina china es útil",
+      "name_ar": "الطب الصيني مفيد",
+      "name_en": "Chinese medicine is useful",
+      "name_fr": "La médecine chinoise est utile",
+      "name_es": "La medicina china es útil",
+      "tags_ar": [
+        "ملاحظات الطبيب",
+        "مصدر PDF"
+      ],
+      "tags_en": [
+        "Doctor notes",
+        "PDF source"
+      ],
+      "tags_fr": [
+        "Notes médicales",
+        "source PDF"
+      ],
+      "tags_es": [
+        "Notas médicas",
+        "fuente PDF"
+      ]
+    },
+    {
+      "id": "tip-30",
+      "category": "ملاحظات الطبيب",
+      "category_ar": "ملاحظات الطبيب",
+      "category_en": "Doctor notes",
+      "category_fr": "Notes médicales",
+      "category_es": "Notas médicas",
+      "sourcePage": 22,
+      "sourcePages": [
+        22
+      ],
+      "sourceBook": "Tayibat Life.pdf",
+      "title_ar": "مفيد للصدفية والأمراض المناعية",
+      "title_en": "Useful for psoriasis and immune diseases",
+      "title_fr": "Utile pour le psoriasis et les maladies immunitaires",
+      "title_es": "Útil para psoriasis y enfermedades inmunitarias",
+      "text_ar": "تذكر ملاحظات الطبيب أن نظام الطيبات مفيد للصدفية والأمراض المناعية.",
+      "text_en": "The doctor's notes state that the Tayibat system is useful for psoriasis and immune diseases.",
+      "text_fr": "Les notes médicales indiquent que le système Tayibat est utile pour le psoriasis et les maladies immunitaires.",
+      "text_es": "Las notas médicas indican que el sistema Tayibat es útil para psoriasis y enfermedades inmunitarias.",
+      "image": "./assets/tips/psoriasis-care.webp",
+      "alt_ar": "مفيد للصدفية والأمراض المناعية",
+      "alt_en": "Useful for psoriasis and immune diseases",
+      "alt_fr": "Utile pour le psoriasis et les maladies immunitaires",
+      "alt_es": "Útil para psoriasis y enfermedades inmunitarias",
+      "name_ar": "مفيد للصدفية والأمراض المناعية",
+      "name_en": "Useful for psoriasis and immune diseases",
+      "name_fr": "Utile pour le psoriasis et les maladies immunitaires",
+      "name_es": "Útil para psoriasis y enfermedades inmunitarias",
+      "tags_ar": [
+        "ملاحظات الطبيب",
+        "مصدر PDF"
+      ],
+      "tags_en": [
+        "Doctor notes",
+        "PDF source"
+      ],
+      "tags_fr": [
+        "Notes médicales",
+        "source PDF"
+      ],
+      "tags_es": [
+        "Notas médicas",
+        "fuente PDF"
+      ]
+    },
+    {
+      "id": "tip-31",
+      "category": "قيود أسبوعية",
+      "category_ar": "قيود أسبوعية",
+      "category_en": "Weekly restrictions",
+      "category_fr": "Restrictions hebdomadaires",
+      "category_es": "Restricciones semanales",
+      "sourcePage": 22,
+      "sourcePages": [
+        22
+      ],
+      "sourceBook": "Tayibat Life.pdf",
+      "title_ar": "لسان العصفور مرة شهرياً",
+      "title_en": "Orzo once monthly",
+      "title_fr": "Orzo une fois par mois",
+      "title_es": "Orzo una vez al mes",
+      "text_ar": "لسان العصفور مذكور في ملاحظات الطبيب مرة واحدة شهرياً.",
+      "text_en": "The doctor's notes list orzo pasta once monthly.",
+      "text_fr": "Les notes médicales indiquent les pâtes orzo une fois par mois.",
+      "text_es": "Las notas médicas indican la pasta orzo una vez al mes.",
+      "image": "./assets/tips/orzo-pasta.webp",
+      "alt_ar": "لسان العصفور مرة شهرياً",
+      "alt_en": "Orzo once monthly",
+      "alt_fr": "Orzo une fois par mois",
+      "alt_es": "Orzo una vez al mes",
+      "name_ar": "لسان العصفور مرة شهرياً",
+      "name_en": "Orzo once monthly",
+      "name_fr": "Orzo une fois par mois",
+      "name_es": "Orzo una vez al mes",
+      "tags_ar": [
+        "قيود أسبوعية",
+        "مصدر PDF"
+      ],
+      "tags_en": [
+        "Weekly restrictions",
+        "PDF source"
+      ],
+      "tags_fr": [
+        "Restrictions hebdomadaires",
+        "source PDF"
+      ],
+      "tags_es": [
+        "Restricciones semanales",
+        "fuente PDF"
+      ]
+    },
+    {
+      "id": "tip-32",
+      "category": "ملاحظات الطبيب",
+      "category_ar": "ملاحظات الطبيب",
+      "category_en": "Doctor notes",
+      "category_fr": "Notes médicales",
+      "category_es": "Notas médicas",
+      "sourcePage": 23,
+      "sourcePages": [
+        23
+      ],
+      "sourceBook": "Tayibat Life.pdf",
+      "title_ar": "الإنسولين قد يؤثر على صحة العظام",
+      "title_en": "Insulin may affect bone health",
+      "title_fr": "L'insuline peut affecter la santé des os",
+      "title_es": "La insulina puede afectar la salud ósea",
+      "text_ar": "تذكر ملاحظات الطبيب أن الإنسولين قد يؤثر على صحة العظام.",
+      "text_en": "The doctor's notes say insulin may affect bone health.",
+      "text_fr": "Les notes médicales indiquent que l'insuline peut affecter la santé des os.",
+      "text_es": "Las notas médicas indican que la insulina puede afectar la salud ósea.",
+      "image": "./assets/tips/bone-health.webp",
+      "alt_ar": "الإنسولين قد يؤثر على صحة العظام",
+      "alt_en": "Insulin may affect bone health",
+      "alt_fr": "L'insuline peut affecter la santé des os",
+      "alt_es": "La insulina puede afectar la salud ósea",
+      "name_ar": "الإنسولين قد يؤثر على صحة العظام",
+      "name_en": "Insulin may affect bone health",
+      "name_fr": "L'insuline peut affecter la santé des os",
+      "name_es": "La insulina puede afectar la salud ósea",
+      "tags_ar": [
+        "ملاحظات الطبيب",
+        "مصدر PDF"
+      ],
+      "tags_en": [
+        "Doctor notes",
+        "PDF source"
+      ],
+      "tags_fr": [
+        "Notes médicales",
+        "source PDF"
+      ],
+      "tags_es": [
+        "Notas médicas",
+        "fuente PDF"
+      ]
+    }
+  ]
+}

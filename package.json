@@ -1,0 +1,26 @@
+{
+  "name": "tayibat-life",
+  "version": "1.0.5",
+  "private": true,
+  "description": "Tayibat Life PWA and Capacitor Android wrapper.",
+  "scripts": {
+    "serve": "python -m http.server 5173",
+    "validate": "node --check app.js && node --check sw.js && node scripts/validate-deploy.js",
+    "check:netlify-json": "node scripts/check-netlify-json.js",
+    "netlify:link": "netlify link",
+    "deploy:netlify": "netlify deploy --dir .",
+    "deploy:netlify:prod": "netlify deploy --prod --dir .",
+    "cap:init": "npx cap init TayibatLife com.tayibat.life --web-dir .",
+    "cap:add:android": "npx cap add android",
+    "cap:sync": "npx cap sync android",
+    "cap:open": "npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/core": "latest",
+    "@capacitor/android": "latest"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "latest",
+    "netlify-cli": "latest"
+  }
+}
