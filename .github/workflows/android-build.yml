@@ -75,15 +75,15 @@ jobs:
       - name: Fail if APK build failed
         if: steps.build_apk.outcome == 'failure'
         run: |
-          tail -n 120 tmp/gradle-build.log > tmp/gradle-build-tail.log || true
+          grep -n -A80 -B20 -E "FAILURE:|What went wrong|Execution failed|A problem occurred|Could not|Task .* FAILED|error:|BUILD FAILED" tmp/gradle-build.log > tmp/gradle-build-summary.log || tail -n 160 tmp/gradle-build.log > tmp/gradle-build-summary.log
           {
             echo "## Gradle build failed"
             echo
             echo '```text'
-            cat tmp/gradle-build-tail.log
+            cat tmp/gradle-build-summary.log
             echo '```'
           } >> "$GITHUB_STEP_SUMMARY"
-          message="$(tail -n 80 tmp/gradle-build.log | sed 's/%/%25/g' | sed ':a;N;$!ba;s/\r/%0D/g;s/\n/%0A/g')"
+          message="$(head -n 160 tmp/gradle-build-summary.log | sed 's/%/%25/g' | sed ':a;N;$!ba;s/\r/%0D/g;s/\n/%0A/g')"
           echo "::error title=Gradle build failed::$message"
           exit 1
 
