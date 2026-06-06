@@ -8,6 +8,8 @@ The workflow creates an artifact named `tayibat-life-release-aab` that contains:
 tayibat-life-release.aab
 ```
 
+If the release workflow fails with `base64: invalid input`, update the `ANDROID_KEYSTORE_BASE64` secret with the full plain-text contents of `release-key.base64.txt`.
+
 ## 1. Generate a release keystore
 
 Generate the keystore locally and keep it private. Do not commit it to Git.
@@ -59,6 +61,25 @@ Windows PowerShell:
 
 Do not commit `release-key.jks`, `release-key.jks.base64`, or any password files.
 
+If you generated the keystore with the temporary GitHub Actions workflow, download the artifact and use the full contents of:
+
+```text
+release-key.base64.txt
+```
+
+For `ANDROID_KEYSTORE_BASE64`, copy the base64 text itself. Do not paste:
+
+```text
+release-key.base64.txt
+release-key.jks
+temporary-android-release-keystore
+the artifact zip file name
+a GitHub artifact URL
+only the first or last part of the base64 text
+```
+
+Copy as plain text with no extra spaces before or after it. The release workflow removes common whitespace, but the secret must still be the complete base64 value.
+
 ## 3. Add GitHub Secrets
 
 In GitHub, open the repository and go to:
@@ -76,9 +97,11 @@ ANDROID_KEY_ALIAS
 ANDROID_KEY_PASSWORD
 ```
 
-Use the full single-line contents of `release-key.jks.base64` for `ANDROID_KEYSTORE_BASE64`.
+Use the full single-line contents of `release-key.jks.base64` or `release-key.base64.txt` for `ANDROID_KEYSTORE_BASE64`.
 
 Use the keystore password, key alias, and key password from the keystore generation step for the other three values.
+
+If `Android Release AAB` fails in the `Decode release keystore` step with `base64: invalid input`, replace the `ANDROID_KEYSTORE_BASE64` secret again using the full contents of `release-key.base64.txt`.
 
 ## 4. Run the release workflow
 
