@@ -13,7 +13,7 @@ const requiredFiles = [
   "privacy.html"
 ];
 
-const optionalFiles = ["_headers", "_redirects"];
+const optionalFiles = ["_headers", "_redirects", "app-ads.txt"];
 const requiredDirs = ["assets", "data"];
 
 function copyEntry(relativePath) {

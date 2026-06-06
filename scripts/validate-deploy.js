@@ -25,7 +25,7 @@ for (const file of jsonFiles) {
   console.log(`JSON OK ${file}`);
 }
 
-for (const file of ["index.html", "privacy.html", "app.js", "styles.css", "sw.js", "netlify.toml", "_redirects", "_headers"]) {
+for (const file of ["index.html", "privacy.html", "app-ads.txt", "app.js", "styles.css", "sw.js", "netlify.toml", "_redirects", "_headers"]) {
   const fullPath = path.join(root, file);
   if (!fs.existsSync(fullPath)) {
     throw new Error(`Missing deploy file: ${file}`);
@@ -37,6 +37,7 @@ const textFiles = [
   ...jsonFiles,
   "index.html",
   "privacy.html",
+  "app-ads.txt",
   "app.js",
   "styles.css",
   "sw.js",

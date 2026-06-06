@@ -2988,6 +2988,7 @@ async function loadAdMobConfig() {
   } catch (error) {
     console.warn("[Tayibat Life] AdMob config missing; placeholders will be used", error);
     return {
+      androidAppId: "ca-app-pub-XXXXXXXXXXXXXXXX~XXXXXXXXXX",
       appId: "ca-app-pub-XXXXXXXXXXXXXXXX~XXXXXXXXXX",
       bannerAdUnitId: "ca-app-pub-XXXXXXXXXXXXXXXX/XXXXXXXXXX",
       interstitialAdUnitId: "ca-app-pub-XXXXXXXXXXXXXXXX/XXXXXXXXXX",
