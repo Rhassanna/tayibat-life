@@ -6,6 +6,10 @@ android/app/build/
 www/
 reports/
 *.zip
+*.jks
+*.keystore
+android/key.properties
+android/release-key.jks
 node_modules/
 tmp/
 www/
