@@ -44,9 +44,91 @@ jobs:
         env:
           ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
         run: |
-          : "${ANDROID_KEYSTORE_BASE64:?ANDROID_KEYSTORE_BASE64 secret is required}"
-          printf '%s' "$ANDROID_KEYSTORE_BASE64" | tr -d '\r\n ' | base64 --decode > android/release-key.jks
-          test -s android/release-key.jks
+          set -euo pipefail
+
+          fail_invalid_secret() {
+            detail="$1"
+            echo "::error title=Invalid Android release keystore secret::ANDROID_KEYSTORE_BASE64 is invalid."
+            echo "::error::${detail}"
+            echo "ANDROID_KEYSTORE_BASE64 is invalid."
+            echo "Download temporary-android-release-keystore artifact and paste the FULL content of release-key.base64.txt into the GitHub secret."
+            exit 1
+          }
+
+          use_existing_keystore_fallback() {
+            if [ -s android/release-key.jks ]; then
+              existing_size="$(wc -c < android/release-key.jks | tr -d ' ')"
+              echo "Using existing android/release-key.jks fallback."
+              echo "Existing keystore file size: ${existing_size} bytes"
+              return 0
+            fi
+
+            if [ -s release-key.jks ]; then
+              cp release-key.jks android/release-key.jks
+              existing_size="$(wc -c < android/release-key.jks | tr -d ' ')"
+              echo "Using existing release-key.jks fallback."
+              echo "Existing keystore file size: ${existing_size} bytes"
+              return 0
+            fi
+
+            return 1
+          }
+
+          trap 'rm -f keystore.base64 release-key.decoded' EXIT
+          mkdir -p android
+
+          if [ -z "${ANDROID_KEYSTORE_BASE64:-}" ]; then
+            echo "::error title=Missing Android release keystore secret::ANDROID_KEYSTORE_BASE64 secret is required."
+            echo "ANDROID_KEYSTORE_BASE64 secret is required."
+            echo "Download temporary-android-release-keystore artifact and paste the FULL content of release-key.base64.txt into the GitHub secret."
+            exit 1
+          fi
+
+          printf '%s' "$ANDROID_KEYSTORE_BASE64" | tr -d '\r\n\t ' > keystore.base64
+          base64_length="$(wc -c < keystore.base64 | tr -d ' ')"
+          echo "ANDROID_KEYSTORE_BASE64 normalized length: ${base64_length} characters"
+
+          if [ "$base64_length" -eq 0 ]; then
+            if use_existing_keystore_fallback; then
+              exit 0
+            fi
+            fail_invalid_secret "The secret is empty after removing CRLF, tabs, and spaces."
+          fi
+
+          if ! grep -Eq '^[A-Za-z0-9+/]*={0,2}$' keystore.base64; then
+            if use_existing_keystore_fallback; then
+              exit 0
+            fi
+            fail_invalid_secret "The secret contains characters that are not valid base64 after removing CRLF, tabs, and spaces."
+          fi
+
+          if ! base64 --decode keystore.base64 > /dev/null; then
+            if use_existing_keystore_fallback; then
+              exit 0
+            fi
+            fail_invalid_secret "base64 validation failed after normalizing the secret."
+          fi
+
+          if ! base64 --decode keystore.base64 > release-key.decoded; then
+            rm -f release-key.decoded
+            if use_existing_keystore_fallback; then
+              exit 0
+            fi
+            fail_invalid_secret "base64 --decode failed after normalizing the secret."
+          fi
+
+          if [ ! -s release-key.decoded ]; then
+            rm -f release-key.decoded
+            if use_existing_keystore_fallback; then
+              exit 0
+            fi
+            fail_invalid_secret "Decoded keystore file is empty."
+          fi
+
+          mv release-key.decoded android/release-key.jks
+
+          decoded_size="$(wc -c < android/release-key.jks | tr -d ' ')"
+          echo "Decoded keystore file size: ${decoded_size} bytes"
 
       - name: Create signing properties
         env:
