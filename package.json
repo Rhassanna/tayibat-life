@@ -10,8 +10,10 @@
     "netlify:link": "netlify link",
     "deploy:netlify": "netlify deploy --dir .",
     "deploy:netlify:prod": "netlify deploy --prod --dir .",
-    "cap:init": "npx cap init TayibatLife com.tayibat.life --web-dir .",
+    "prepare:cap": "node scripts/prepare-capacitor-web-assets.js",
+    "cap:init": "npx cap init TayibatLife com.tayibat.life --web-dir www",
     "cap:add:android": "npx cap add android",
+    "precap:sync": "npm run prepare:cap",
     "cap:sync": "npx cap sync android",
     "cap:open": "npx cap open android"
   },

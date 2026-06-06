@@ -41,13 +41,6 @@ jobs:
       - name: Validate web app
         run: npm run validate
 
-      - name: Prepare Capacitor web assets
-        run: |
-          rm -rf www
-          mkdir -p www
-          cp index.html app.js styles.css sw.js manifest.webmanifest privacy.html www/
-          cp -R assets data www/
-
       - name: Sync Capacitor Android project
         run: npm run cap:sync
 
