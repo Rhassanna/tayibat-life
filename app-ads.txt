@@ -1,2 +1,2 @@
-# Replace pub-XXXXXXXXXXXXXXXX with the Tayibat Life AdMob publisher ID before enabling production ads.
-google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+# Tayibat Life production AdMob seller declaration.
+google.com, pub-4441958861355825, DIRECT, f08c47fec0942fa0

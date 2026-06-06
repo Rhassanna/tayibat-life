@@ -2,6 +2,7 @@
 <resources>
     <string name="app_name">Tayibat Life</string>
     <string name="title_activity_main">Tayibat Life</string>
+    <string name="admob_app_id">ca-app-pub-4441958861355825~6983634337</string>
     <string name="package_name">com.tayibat.life</string>
     <string name="custom_url_scheme">com.tayibat.life</string>
 </resources>

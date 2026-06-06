@@ -2,6 +2,21 @@ const APP_VERSION = "v81";
 const SEO_TITLE = "Tayibat Life - Healthy Nutrition, Meal Planner and Wellness Tracker";
 
 const ADMOB_CONFIG_FILE = "./assets/config/admob.config.json";
+const ADMOB_DEFAULT_CONFIG = Object.freeze({
+  androidAppId: "ca-app-pub-4441958861355825~6983634337",
+  appId: "ca-app-pub-4441958861355825~6983634337",
+  bannerEnabled: true,
+  bannerAdUnitId: "ca-app-pub-4441958861355825/8264926419",
+  interstitialEnabled: true,
+  interstitialAdUnitId: "ca-app-pub-4441958861355825/5478980972",
+  rewardedEnabled: false,
+  rewardedAdUnitId: "",
+  testMode: false
+});
+const ADMOB_INTERSTITIAL_STORAGE_KEY = "tayibat.admobInterstitial";
+const ADMOB_INTERSTITIAL_SECTION_THRESHOLD = 4;
+const ADMOB_INTERSTITIAL_TIP_THRESHOLD = 3;
+const ADMOB_INTERSTITIAL_COOLDOWN_MS = 4 * 60 * 1000;
 const PAYPAL_CONFIG_FILE = "./assets/config/paypal.json";
 const PAYPAL_SUPPORT_EMAIL = "hassannariadi@gmail.com";
 const PAYPAL_SUPPORT_MAILTO = "mailto:hassannariadi@gmail.com";
@@ -80,7 +95,11 @@ const state = {
     config: null,
     initialized: false,
     nativeReady: false,
-    bannerShown: false
+    bannerShown: false,
+    interstitialShowing: false,
+    sectionNavigationsSinceAd: 0,
+    tipOpensSinceAd: 0,
+    lastInterstitialAt: 0
   },
   paypal: {
     config: null,
@@ -888,6 +907,10 @@ function bindEvents() {
       event.preventDefault();
       activateSupportCode();
     }
+    if ((event.key === "Enter" || event.key === " ") && event.target.closest?.("[data-tip-open]")) {
+      event.preventDefault();
+      openTipDetail(event.target.closest("[data-tip-open]").dataset.tipId);
+    }
     if (event.key === "Escape") closeModal();
   });
 }
@@ -935,6 +958,12 @@ function handleClick(event) {
   const foodButton = event.target.closest("[data-food-id]");
   if (foodButton) {
     openFoodDetail(foodButton.dataset.foodId, foodButton.dataset.foodStatus);
+    return;
+  }
+
+  const tipCard = event.target.closest("[data-tip-open]");
+  if (tipCard && (tipCard.tagName === "BUTTON" || !event.target.closest("button, a, input, select, textarea"))) {
+    openTipDetail(tipCard.dataset.tipId);
     return;
   }
 
@@ -1017,11 +1046,12 @@ function handleChange(event) {
 }
 
 function navigate(view) {
+  const previousView = state.view;
   state.view = view;
   render();
   resetScroll();
-  if (view === "weekly") {
-    showInterstitialAd();
+  if (view !== previousView && view !== "home") {
+    recordSectionNavigationForInterstitial(view);
   }
   if (view === "support") {
     trackAnalytics("support_page_opened");
@@ -1094,6 +1124,8 @@ function renderBottomNav() {
 
 function renderAdBanner() {
   if (isPremium()) return "";
+  if (state.view !== "home") return "";
+  if (state.adMob.config && !state.adMob.config.bannerEnabled) return "";
   if (state.adMob.nativeReady && state.adMob.bannerShown) return "";
   return `
     <aside class="ad-banner" aria-label="${escapeHTML(t("ads"))}">
@@ -1507,7 +1539,7 @@ function renderTips() {
     ${renderSearchBox()}
     <section class="grid tips-grid">
       ${state.data.tips.tips.map((item) => `
-        <article class="tip-card">
+        <article class="tip-card" data-tip-open data-tip-id="${escapeAttr(item.id)}" role="button" tabindex="0">
           ${renderTipMedia(item)}
           <div class="tip-content">
             <span class="tip-category">${escapeHTML(localized(item, "category"))}</span>
@@ -2110,6 +2142,7 @@ function afterRender() {
   if (state.view === "weight") {
     requestAnimationFrame(drawWeightChart);
   }
+  syncAdMobBannerForView();
   if (!state.settings.disclaimerAccepted) {
     requestAnimationFrame(showFirstLaunchDisclaimer);
   }
@@ -2584,6 +2617,42 @@ function openFoodDetail(id, status) {
   `;
 }
 
+function openTipDetail(id, options = {}) {
+  const { countOpen = true } = options;
+  const item = state.data.tips.tips.find((tip) => tip.id === id);
+  if (!item) return;
+  const title = localized(item, "title") || localized(item, "name") || t("dailyTip");
+  if (countOpen) {
+    recordTipOpenForInterstitial();
+  }
+
+  $("#modal-root").innerHTML = `
+    <div class="modal-backdrop" data-action="close-modal">
+      <article class="modal" role="dialog" aria-modal="true">
+        <header class="modal-header detail-modal-header">
+          <div class="modal-title">
+            <div>
+              <h2>${escapeHTML(title)}</h2>
+              <span class="badge">${escapeHTML(localized(item, "category") || t("tips"))}</span>
+            </div>
+          </div>
+          <button class="icon-button" data-action="close-modal" aria-label="${escapeAttr(t("close"))}">Ã—</button>
+        </header>
+        <div class="modal-body">
+          <section class="detail-hero">
+            ${renderTipMedia(item, true)}
+          </section>
+          ${renderDetailSection(t("dailyTip"), localized(item, "text"))}
+          <div class="button-row">
+            ${favoriteButton("tip", item.id)}
+            <button class="secondary-button" data-action="share-tip" data-tip-id="${escapeAttr(item.id)}">${escapeHTML(t("shareTip"))}</button>
+          </div>
+        </div>
+      </article>
+    </div>
+  `;
+}
+
 function renderDetailSection(title, value) {
   if (!value || (Array.isArray(value) && value.length === 0)) return "";
   const content = Array.isArray(value)
@@ -2632,6 +2701,7 @@ function toggleFavorite(type, id, status = "") {
   toast(state.favorites.includes(key) ? t("addFavorite") : t("removeFavorite"));
   if ($("#modal-root").innerHTML) {
     if (type === "food") openFoodDetail(id, status);
+    if (type === "tip") openTipDetail(id, { countOpen: false });
   } else {
     render();
   }
@@ -2886,34 +2956,38 @@ function printWeeklyPlan() {
 }
 
 async function showInterstitialAd() {
-  if (isPremium()) return;
+  if (isPremium()) return false;
+  if (!state.adMob.config?.interstitialEnabled || !state.adMob.config?.interstitialAdUnitId) return false;
   const adMob = getAdMobPlugin();
   if (state.adMob.nativeReady && adMob) {
     try {
       if (typeof adMob.prepareInterstitial === "function") {
         await adMob.prepareInterstitial({
           adId: state.adMob.config?.interstitialAdUnitId,
-          isTesting: Boolean(state.adMob.config?.testMode)
+          isTesting: isAdMobTestMode()
         });
       }
       if (typeof adMob.showInterstitial === "function") {
         await adMob.showInterstitial();
-        return;
+        return true;
       }
       if (typeof adMob.showInterstitialAd === "function") {
         await adMob.showInterstitialAd();
-        return;
+        return true;
       }
-      return;
+      return false;
     } catch (error) {
       console.warn("[Tayibat Life] Native interstitial failed, using fallback", error);
     }
   }
-  setTimeout(() => showAdModal("Interstitial", t("weekly"), "AdMob Interstitial"), 200);
+  if ($("#modal-root").innerHTML.trim()) return false;
+  await showAdModal("Interstitial", t("appNameLocal"), "AdMob Interstitial");
+  return true;
 }
 
 function showRewardedAd() {
   if (isPremium()) return Promise.resolve(true);
+  if (!state.adMob.config?.rewardedEnabled || !state.adMob.config?.rewardedAdUnitId) return Promise.resolve(true);
   const adMob = getAdMobPlugin();
   if (state.adMob.nativeReady && adMob) {
     return (async () => {
@@ -2921,7 +2995,7 @@ function showRewardedAd() {
         if (typeof adMob.prepareRewardVideoAd === "function") {
           await adMob.prepareRewardVideoAd({
             adId: state.adMob.config?.rewardedAdUnitId,
-            isTesting: Boolean(state.adMob.config?.testMode)
+            isTesting: isAdMobTestMode()
           });
         }
         if (typeof adMob.showRewardVideoAd === "function") {
@@ -2947,7 +3021,8 @@ async function initAdMob() {
     return;
   }
   state.adMob.config = await loadAdMobConfig();
-  if (state.adMob.config?.testMode) {
+  state.adMob.lastInterstitialAt = loadInterstitialAdState().lastShownAt || 0;
+  if (isAdMobTestMode()) {
     console.info("[Tayibat Life] AdMob test mode enabled");
   }
   const adMob = getAdMobPlugin();
@@ -2967,13 +3042,13 @@ async function initAdMob() {
       await adMob.initialize({
         requestTrackingAuthorization: false,
         testingDevices: [],
-        initializeForTesting: Boolean(state.adMob.config?.testMode)
+        initializeForTesting: isAdMobTestMode()
       });
     }
     state.adMob.initialized = true;
     state.adMob.nativeReady = true;
     console.info("[Tayibat Life] AdMob initialized on Android");
-    await showNativeBannerAd();
+    await syncAdMobBannerForView();
   } catch (error) {
     state.adMob.nativeReady = false;
     console.warn("[Tayibat Life] AdMob initialization failed; web fallback will be used", error);
@@ -2984,17 +3059,89 @@ async function loadAdMobConfig() {
   try {
     const response = await fetch(`${ADMOB_CONFIG_FILE}?${APP_VERSION}`, { cache: "no-cache" });
     if (!response.ok) throw new Error(`HTTP ${response.status} ${response.statusText}`);
-    return await response.json();
+    return normalizeAdMobConfig(await response.json());
   } catch (error) {
-    console.warn("[Tayibat Life] AdMob config missing; placeholders will be used", error);
-    return {
-      androidAppId: "ca-app-pub-XXXXXXXXXXXXXXXX~XXXXXXXXXX",
-      appId: "ca-app-pub-XXXXXXXXXXXXXXXX~XXXXXXXXXX",
-      bannerAdUnitId: "ca-app-pub-XXXXXXXXXXXXXXXX/XXXXXXXXXX",
-      interstitialAdUnitId: "ca-app-pub-XXXXXXXXXXXXXXXX/XXXXXXXXXX",
-      rewardedAdUnitId: "ca-app-pub-XXXXXXXXXXXXXXXX/XXXXXXXXXX",
-      testMode: true
-    };
+    console.warn("[Tayibat Life] AdMob config missing; production defaults will be used", error);
+    return normalizeAdMobConfig({});
+  }
+}
+
+function normalizeAdMobConfig(config = {}) {
+  return {
+    ...ADMOB_DEFAULT_CONFIG,
+    ...config,
+    bannerEnabled: config.bannerEnabled !== false,
+    interstitialEnabled: config.interstitialEnabled !== false,
+    rewardedEnabled: config.rewardedEnabled === true && Boolean(config.rewardedAdUnitId),
+    testMode: config.testMode === true
+  };
+}
+
+function isAdMobTestMode() {
+  return state.adMob.config?.testMode === true;
+}
+
+function loadInterstitialAdState() {
+  const stored = loadJSON(ADMOB_INTERSTITIAL_STORAGE_KEY, { lastShownAt: 0 });
+  return {
+    lastShownAt: Number(stored?.lastShownAt) || 0
+  };
+}
+
+function saveInterstitialAdState() {
+  saveJSON(ADMOB_INTERSTITIAL_STORAGE_KEY, {
+    lastShownAt: state.adMob.lastInterstitialAt
+  });
+}
+
+function recordSectionNavigationForInterstitial(view) {
+  if (!view || view === "home" || view === "notifications" || view === "settings") return;
+  state.adMob.sectionNavigationsSinceAd += 1;
+  maybeShowInterstitialAd("section");
+}
+
+function recordTipOpenForInterstitial() {
+  state.adMob.tipOpensSinceAd += 1;
+  maybeShowInterstitialAd("tip");
+}
+
+function canShowInterstitialAd(trigger) {
+  if (isPremium()) return false;
+  if (state.adMob.interstitialShowing) return false;
+  if (!state.adMob.config?.interstitialEnabled || !state.adMob.config?.interstitialAdUnitId) return false;
+  const now = Date.now();
+  if (now - state.adMob.lastInterstitialAt < ADMOB_INTERSTITIAL_COOLDOWN_MS) return false;
+  if (trigger === "tip") return state.adMob.tipOpensSinceAd >= ADMOB_INTERSTITIAL_TIP_THRESHOLD;
+  if (trigger === "section") return state.adMob.sectionNavigationsSinceAd >= ADMOB_INTERSTITIAL_SECTION_THRESHOLD;
+  return false;
+}
+
+async function maybeShowInterstitialAd(trigger) {
+  if (!canShowInterstitialAd(trigger)) return false;
+  state.adMob.interstitialShowing = true;
+  try {
+    const shown = await showInterstitialAd();
+    if (!shown) return false;
+    state.adMob.sectionNavigationsSinceAd = 0;
+    state.adMob.tipOpensSinceAd = 0;
+    state.adMob.lastInterstitialAt = Date.now();
+    saveInterstitialAdState();
+    return true;
+  } finally {
+    state.adMob.interstitialShowing = false;
+  }
+}
+
+function shouldShowBannerAdOnCurrentView() {
+  return state.view === "home" && !isPremium() && state.adMob.config?.bannerEnabled !== false;
+}
+
+async function syncAdMobBannerForView() {
+  if (!state.adMob.nativeReady) return;
+  if (shouldShowBannerAdOnCurrentView()) {
+    await showNativeBannerAd();
+  } else if (state.adMob.bannerShown) {
+    await hideAdMobBanner();
   }
 }
 
@@ -3004,17 +3151,20 @@ async function showNativeBannerAd() {
     return;
   }
   const adMob = getAdMobPlugin();
-  if (!state.adMob.nativeReady || !adMob || !state.adMob.config?.bannerAdUnitId) return;
+  if (!shouldShowBannerAdOnCurrentView()) return;
+  if (state.adMob.bannerShown) return;
+  if (!state.adMob.nativeReady || !adMob || !state.adMob.config?.bannerEnabled || !state.adMob.config?.bannerAdUnitId) return;
   try {
     if (typeof adMob.showBanner === "function") {
       await adMob.showBanner({
         adId: state.adMob.config.bannerAdUnitId,
-        adSize: "BANNER",
+        adSize: "ADAPTIVE_BANNER",
         position: "BOTTOM_CENTER",
         margin: 0,
-        isTesting: Boolean(state.adMob.config.testMode)
+        isTesting: isAdMobTestMode()
       });
       state.adMob.bannerShown = true;
+      $$(".ad-banner").forEach((banner) => banner.remove());
     }
   } catch (error) {
     state.adMob.bannerShown = false;

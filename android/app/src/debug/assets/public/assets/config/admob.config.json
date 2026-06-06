@@ -7,5 +7,5 @@
   "interstitialAdUnitId": "ca-app-pub-4441958861355825/5478980972",
   "rewardedEnabled": false,
   "rewardedAdUnitId": "",
-  "testMode": false
+  "testMode": true
 }

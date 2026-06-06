@@ -2,4 +2,5 @@
 /assets/* /assets/:splat 200
 /manifest.webmanifest /manifest.webmanifest 200
 /sw.js /sw.js 200
+/app-ads.txt /app-ads.txt 200
 /* /index.html 200
