@@ -1,7 +1,7 @@
-const APP_VERSION = "v81";
+const APP_VERSION = "v82";
 const SEO_TITLE = "Tayibat Life - Healthy Nutrition, Meal Planner and Wellness Tracker";
 
-const ADMOB_CONFIG_FILE = "./assets/config/admob.config.json";
+const ADMOB_CONFIG_FILE = "/assets/config/admob.config.json";
 const ADMOB_DEFAULT_CONFIG = Object.freeze({
   androidAppId: "ca-app-pub-4441958861355825~6983634337",
   appId: "ca-app-pub-4441958861355825~6983634337",
@@ -17,7 +17,7 @@ const ADMOB_INTERSTITIAL_STORAGE_KEY = "tayibat.admobInterstitial";
 const ADMOB_INTERSTITIAL_SECTION_THRESHOLD = 4;
 const ADMOB_INTERSTITIAL_TIP_THRESHOLD = 3;
 const ADMOB_INTERSTITIAL_COOLDOWN_MS = 4 * 60 * 1000;
-const PAYPAL_CONFIG_FILE = "./assets/config/paypal.json";
+const PAYPAL_CONFIG_FILE = "/assets/config/paypal.json";
 const PAYPAL_SUPPORT_EMAIL = "hassannariadi@gmail.com";
 const PAYPAL_SUPPORT_MAILTO = "mailto:hassannariadi@gmail.com";
 const SUPPORT_EMAIL = "hassannacreative@gmail.com";
@@ -33,12 +33,12 @@ const TIP_IMAGE_DIR = "./assets/tips/";
 const FORBIDDEN_TIP_IMAGES = new Set(["./assets/logo.png", "./assets/logo.webp"]);
 
 const DATA_FILES = {
-  allowed: "./data/foods_allowed.json",
-  forbidden: "./data/foods_forbidden.json",
-  meals: "./data/meals.json",
-  weekly: "./data/weekly_plans.json",
-  tips: "./data/tips.json",
-  translations: "./data/translations.json"
+  allowed: "/data/foods_allowed.json",
+  forbidden: "/data/foods_forbidden.json",
+  meals: "/data/meals.json",
+  weekly: "/data/weekly_plans.json",
+  tips: "/data/tips.json",
+  translations: "/data/translations.json"
 };
 
 const SUPPORTED_LANGS = ["ar", "en", "fr", "es"];
