@@ -16,14 +16,48 @@ const jsonFiles = [
   "capacitor.config.json"
 ];
 
+const productionAdMob = {
+  androidAppId: "ca-app-pub-4441958861355825~6983634337",
+  appId: "ca-app-pub-4441958861355825~6983634337",
+  bannerAdUnitId: "ca-app-pub-4441958861355825/8264926419",
+  interstitialAdUnitId: "ca-app-pub-4441958861355825/5478980972"
+};
+
+function readJson(relativePath) {
+  return JSON.parse(fs.readFileSync(path.join(root, relativePath), "utf8"));
+}
+
+function assertEqual(actual, expected, label) {
+  if (actual !== expected) {
+    throw new Error(`${label}: expected ${JSON.stringify(expected)}, found ${JSON.stringify(actual)}`);
+  }
+}
+
+function validateAdMobConfig(relativePath, expectedTestMode) {
+  const config = readJson(relativePath);
+  for (const [key, value] of Object.entries(productionAdMob)) {
+    assertEqual(config[key], value, `${relativePath} ${key}`);
+  }
+  assertEqual(config.bannerEnabled, true, `${relativePath} bannerEnabled`);
+  assertEqual(config.interstitialEnabled, true, `${relativePath} interstitialEnabled`);
+  assertEqual(config.rewardedEnabled, false, `${relativePath} rewardedEnabled`);
+  assertEqual(config.testMode, expectedTestMode, `${relativePath} testMode`);
+  console.log(`ADMOB OK ${relativePath}`);
+}
+
 for (const file of jsonFiles) {
   const fullPath = path.join(root, file);
   if (!fs.existsSync(fullPath)) {
     throw new Error(`Missing deploy file: ${file}`);
   }
-  JSON.parse(fs.readFileSync(fullPath, "utf8"));
+  readJson(file);
   console.log(`JSON OK ${file}`);
 }
+
+validateAdMobConfig("assets/config/admob.config.json", false);
+validateAdMobConfig("android/app/src/debug/assets/public/assets/config/admob.config.json", true);
+assertEqual(readJson("capacitor.config.json").appId, "com.tayibat.life", "capacitor.config.json appId");
+console.log("ANDROID PACKAGE OK com.tayibat.life");
 
 for (const file of ["index.html", "privacy.html", "app-ads.txt", "app.js", "styles.css", "sw.js", "netlify.toml", "_redirects", "_headers"]) {
   const fullPath = path.join(root, file);

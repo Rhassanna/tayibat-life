@@ -1,4 +1,4 @@
-const APP_VERSION = "v82";
+const APP_VERSION = "v83";
 const SEO_TITLE = "Tayibat Life - Healthy Nutrition, Meal Planner and Wellness Tracker";
 
 const ADMOB_CONFIG_FILE = "/assets/config/admob.config.json";
